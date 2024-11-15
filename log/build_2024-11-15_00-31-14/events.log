@@ -1,0 +1,111 @@
+[0.000000] (-) TimerEvent: {}
+[0.000387] (telemetry_interfaces) JobQueued: {'identifier': 'telemetry_interfaces', 'dependencies': OrderedDict()}
+[0.000459] (telemetry) JobQueued: {'identifier': 'telemetry', 'dependencies': OrderedDict({'telemetry_interfaces': '/home/toni/toni_umrt_ros/install/telemetry_interfaces'})}
+[0.000506] (telemetry_interfaces) JobStarted: {'identifier': 'telemetry_interfaces'}
+[0.037675] (telemetry_interfaces) JobProgress: {'identifier': 'telemetry_interfaces', 'progress': 'cmake'}
+[0.042361] (telemetry_interfaces) JobProgress: {'identifier': 'telemetry_interfaces', 'progress': 'build'}
+[0.042462] (telemetry_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/toni/toni_umrt_ros/build/telemetry_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/toni/toni_umrt_ros/build/telemetry_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'toni', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/toni', 'OLDPWD': '/home/toni/toni_umrt_ros/src/telemetry_interfaces', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2213', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'toni', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'toni', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/toni-VirtualBox:@/tmp/.ICE-unix/2180,unix/toni-VirtualBox:/tmp/.ICE-unix/2180', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/10acbb00_bdc6_415c_a039_9577230d1231', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MAREX2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/rolling', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/toni/toni_umrt_ros/build/telemetry_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor'}), 'shell': False}
+[0.114575] (-) TimerEvent: {}
+[0.241498] (telemetry_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[0.241896] (-) TimerEvent: {}
+[0.343698] (-) TimerEvent: {}
+[0.445598] (-) TimerEvent: {}
+[0.550481] (-) TimerEvent: {}
+[0.605779] (telemetry_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.7.1 (/opt/ros/rolling/share/rosidl_default_generators/cmake)\n'}
+[0.622732] (telemetry_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.657812] (-) TimerEvent: {}
+[0.757010] (telemetry_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.757932] (-) TimerEvent: {}
+[0.863589] (-) TimerEvent: {}
+[0.866359] (telemetry_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.8.1 (/opt/ros/rolling/share/rosidl_adapter/cmake)\n'}
+[0.964237] (-) TimerEvent: {}
+[1.065521] (-) TimerEvent: {}
+[1.172247] (-) TimerEvent: {}
+[1.275276] (-) TimerEvent: {}
+[1.291549] (telemetry_interfaces) StderrLine: {'line': b"Error parsing '/home/toni/toni_umrt_ros/src/telemetry_interfaces/package.xml':\n"}
+[1.377227] (-) TimerEvent: {}
+[1.480698] (-) TimerEvent: {}
+[1.582893] (-) TimerEvent: {}
+[1.683470] (-) TimerEvent: {}
+[1.784674] (-) TimerEvent: {}
+[1.885259] (-) TimerEvent: {}
+[1.985928] (-) TimerEvent: {}
+[2.086514] (-) TimerEvent: {}
+[2.187276] (-) TimerEvent: {}
+[2.562007] (-) TimerEvent: {}
+[2.663343] (-) TimerEvent: {}
+[2.767081] (-) TimerEvent: {}
+[2.867682] (-) TimerEvent: {}
+[2.968748] (-) TimerEvent: {}
+[3.070838] (-) TimerEvent: {}
+[3.175645] (-) TimerEvent: {}
+[3.278364] (-) TimerEvent: {}
+[3.379786] (-) TimerEvent: {}
+[3.488444] (-) TimerEvent: {}
+[3.589302] (-) TimerEvent: {}
+[3.689832] (-) TimerEvent: {}
+[3.790906] (-) TimerEvent: {}
+[3.897247] (-) TimerEvent: {}
+[3.999612] (-) TimerEvent: {}
+[4.137808] (-) TimerEvent: {}
+[4.238709] (-) TimerEvent: {}
+[4.341262] (-) TimerEvent: {}
+[4.442471] (-) TimerEvent: {}
+[4.544480] (-) TimerEvent: {}
+[4.706999] (-) TimerEvent: {}
+[4.813796] (-) TimerEvent: {}
+[4.915253] (-) TimerEvent: {}
+[5.016261] (-) TimerEvent: {}
+[5.118025] (-) TimerEvent: {}
+[5.227486] (-) TimerEvent: {}
+[5.331710] (-) TimerEvent: {}
+[5.432411] (-) TimerEvent: {}
+[5.532872] (telemetry_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[5.533330] (-) TimerEvent: {}
+[5.533561] (telemetry_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string\n'}
+[5.535006] (telemetry_interfaces) StderrLine: {'line': b'    root = dom.parseString(data)\n'}
+[5.535944] (telemetry_interfaces) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^\n'}
+[5.536193] (telemetry_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.12/xml/dom/minidom.py", line 2000, in parseString\n'}
+[5.536409] (telemetry_interfaces) StderrLine: {'line': b'    return expatbuilder.parseString(string)\n'}
+[5.536605] (telemetry_interfaces) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[5.537990] (telemetry_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 922, in parseString\n'}
+[5.538521] (telemetry_interfaces) StderrLine: {'line': b'    return builder.parseString(string)\n'}
+[5.538719] (telemetry_interfaces) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[5.538949] (telemetry_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3.12/xml/dom/expatbuilder.py", line 220, in parseString\n'}
+[5.539218] (telemetry_interfaces) StderrLine: {'line': b'    parser.Parse(string, True)\n'}
+[5.539391] (telemetry_interfaces) StderrLine: {'line': b'xml.parsers.expat.ExpatError: mismatched tag: line 21, column 2\n'}
+[5.539551] (telemetry_interfaces) StderrLine: {'line': b'\n'}
+[5.539709] (telemetry_interfaces) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[5.539877] (telemetry_interfaces) StderrLine: {'line': b'\n'}
+[5.540133] (telemetry_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[5.540438] (telemetry_interfaces) StderrLine: {'line': b'  File "/opt/ros/rolling/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[5.540606] (telemetry_interfaces) StderrLine: {'line': b'    main()\n'}
+[5.540768] (telemetry_interfaces) StderrLine: {'line': b'  File "/opt/ros/rolling/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[5.543744] (telemetry_interfaces) StderrLine: {'line': b'    raise e\n'}
+[5.544274] (telemetry_interfaces) StderrLine: {'line': b'  File "/opt/ros/rolling/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[5.544465] (telemetry_interfaces) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[5.544633] (telemetry_interfaces) StderrLine: {'line': b'              ^^^^^^^^^^^^^^^^^^^^^\n'}
+[5.544798] (telemetry_interfaces) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string\n'}
+[5.544958] (telemetry_interfaces) StderrLine: {'line': b"    raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[5.545125] (telemetry_interfaces) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/toni/toni_umrt_ros/src/telemetry_interfaces/package.xml':\n"}
+[5.545301] (telemetry_interfaces) StderrLine: {'line': b'The manifest contains invalid XML:\n'}
+[5.545467] (telemetry_interfaces) StderrLine: {'line': b'mismatched tag: line 21, column 2\n'}
+[5.625095] (telemetry_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/rolling/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[5.625446] (telemetry_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[5.625622] (telemetry_interfaces) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[5.625798] (telemetry_interfaces) StderrLine: {'line': b'  /home/toni/toni_umrt_ros/src/telemetry_interfaces/package.xml\n'}
+[5.625978] (telemetry_interfaces) StderrLine: {'line': b'  /home/toni/toni_umrt_ros/build/telemetry_interfaces/ament_cmake_core/package.cmake)\n'}
+[5.626320] (telemetry_interfaces) StderrLine: {'line': b'  returned error code 1\n'}
+[5.626520] (telemetry_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.626677] (telemetry_interfaces) StderrLine: {'line': b'  /opt/ros/rolling/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[5.626833] (telemetry_interfaces) StderrLine: {'line': b'  /opt/ros/rolling/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:220 (ament_package_xml)\n'}
+[5.627039] (telemetry_interfaces) StderrLine: {'line': b'  CMakeLists.txt:12 (rosidl_generate_interfaces)\n'}
+[5.627266] (telemetry_interfaces) StderrLine: {'line': b'\n'}
+[5.627420] (telemetry_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[5.627569] (telemetry_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[5.635279] (-) TimerEvent: {}
+[5.638624] (telemetry_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:1355: cmake_check_build_system] Error 1\n'}
+[5.646380] (telemetry_interfaces) CommandEnded: {'returncode': 2}
+[5.647572] (telemetry_interfaces) JobEnded: {'identifier': 'telemetry_interfaces', 'rc': 2}
+[5.657630] (telemetry) JobSkipped: {'identifier': 'telemetry'}
+[5.657727] (-) EventReactorShutdown: {}

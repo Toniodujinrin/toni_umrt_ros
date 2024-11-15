@@ -1,0 +1,9 @@
+{
+  "package_name": "telemetry_interfaces",
+  "output_dir": "/home/toni/toni_umrt_ros/build/telemetry_interfaces/rosidl_generator_type_description/telemetry_interfaces",
+  "idl_tuples": [
+    "/home/toni/toni_umrt_ros/build/telemetry_interfaces/rosidl_adapter/telemetry_interfaces:msg/Telemetry.idl",
+    "/home/toni/toni_umrt_ros/build/telemetry_interfaces/rosidl_adapter/telemetry_interfaces:msg/Gps.idl",
+    "/home/toni/toni_umrt_ros/build/telemetry_interfaces/rosidl_adapter/telemetry_interfaces:msg/Imu.idl"
+  ]
+}

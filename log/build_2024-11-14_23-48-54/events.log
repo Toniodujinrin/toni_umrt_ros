@@ -1,0 +1,521 @@
+[0.000000] (-) TimerEvent: {}
+[0.000284] (telemetry_interfaces) JobQueued: {'identifier': 'telemetry_interfaces', 'dependencies': OrderedDict()}
+[0.000364] (telemetry) JobQueued: {'identifier': 'telemetry', 'dependencies': OrderedDict({'telemetry_interfaces': '/home/toni/toni_umrt_ros/install/telemetry_interfaces'})}
+[0.000421] (telemetry_interfaces) JobStarted: {'identifier': 'telemetry_interfaces'}
+[0.060735] (telemetry_interfaces) JobProgress: {'identifier': 'telemetry_interfaces', 'progress': 'cmake'}
+[0.070998] (telemetry_interfaces) JobProgress: {'identifier': 'telemetry_interfaces', 'progress': 'build'}
+[0.071114] (telemetry_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/toni/toni_umrt_ros/build/telemetry_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/toni/toni_umrt_ros/build/telemetry_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'toni', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/toni', 'OLDPWD': '/home/toni', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2233', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'toni', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'toni', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/toni-VirtualBox:@/tmp/.ICE-unix/2202,unix/toni-VirtualBox:/tmp/.ICE-unix/2202', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/317e20f1_a788_46c5_97a8_41a0db08deb2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.T3QBX2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/rolling', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/toni/toni_umrt_ros/build/telemetry_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling'}), 'shell': False}
+[0.099228] (-) TimerEvent: {}
+[0.200024] (-) TimerEvent: {}
+[0.301008] (-) TimerEvent: {}
+[0.335443] (telemetry_interfaces) StdoutLine: {'line': b'[  1%] Built target FILES__rosidl_generator_type_description\n'}
+[0.401287] (telemetry_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_telemetry_interfaces\n'}
+[0.401668] (-) TimerEvent: {}
+[0.405089] (telemetry_interfaces) StdoutLine: {'line': b'[  3%] Built target FILES__cpp\n'}
+[0.469042] (telemetry_interfaces) StdoutLine: {'line': b'[ 24%] Built target FILES__rosidl_generator_c\n'}
+[0.501930] (-) TimerEvent: {}
+[0.568276] (telemetry_interfaces) StdoutLine: {'line': b'[ 33%] Built target FILES__rosidl_typesupport_cpp\n'}
+[0.579239] (telemetry_interfaces) StdoutLine: {'line': b'[ 42%] Built target FILES__rosidl_typesupport_introspection_cpp\n'}
+[0.587742] (telemetry_interfaces) StdoutLine: {'line': b'[ 51%] Built target FILES__rosidl_typesupport_fastrtps_cpp\n'}
+[0.604996] (-) TimerEvent: {}
+[0.658524] (telemetry_interfaces) StdoutLine: {'line': b'[ 61%] Built target FILES__rosidl_typesupport_fastrtps_c\n'}
+[0.662090] (telemetry_interfaces) StdoutLine: {'line': b'[ 70%] Built target FILES__rosidl_typesupport_introspection_c\n'}
+[0.678109] (telemetry_interfaces) StdoutLine: {'line': b'[ 79%] Built target FILES__rosidl_typesupport_c\n'}
+[0.705162] (-) TimerEvent: {}
+[0.730397] (telemetry_interfaces) StdoutLine: {'line': b'[ 79%] Built target FILES\n'}
+[0.779499] (telemetry_interfaces) StdoutLine: {'line': b'[ 81%] Built target FILES__py\n'}
+[0.805393] (-) TimerEvent: {}
+[0.853798] (telemetry_interfaces) StdoutLine: {'line': b'[ 88%] Built target FILES__rosidl_generator_py\n'}
+[0.906755] (-) TimerEvent: {}
+[0.907366] (telemetry_interfaces) StdoutLine: {'line': b'[ 92%] Built target telemetry_interfaces_s__rosidl_typesupport_c\n'}
+[0.927431] (telemetry_interfaces) StdoutLine: {'line': b'[ 96%] Built target telemetry_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[0.928969] (telemetry_interfaces) StdoutLine: {'line': b'[100%] Built target telemetry_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[0.978584] (telemetry_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.007001] (-) TimerEvent: {}
+[1.022108] (telemetry_interfaces) StdoutLine: {'line': b'writing telemetry_interfaces.egg-info/PKG-INFO\n'}
+[1.023335] (telemetry_interfaces) StdoutLine: {'line': b'writing dependency_links to telemetry_interfaces.egg-info/dependency_links.txt\n'}
+[1.025112] (telemetry_interfaces) StdoutLine: {'line': b'writing top-level names to telemetry_interfaces.egg-info/top_level.txt\n'}
+[1.107157] (-) TimerEvent: {}
+[1.147810] (telemetry_interfaces) StdoutLine: {'line': b"reading manifest file 'telemetry_interfaces.egg-info/SOURCES.txt'\n"}
+[1.150326] (telemetry_interfaces) StdoutLine: {'line': b"writing manifest file 'telemetry_interfaces.egg-info/SOURCES.txt'\n"}
+[1.204184] (telemetry_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_telemetry_interfaces_egg\n'}
+[1.207312] (-) TimerEvent: {}
+[1.233230] (telemetry_interfaces) CommandEnded: {'returncode': 0}
+[1.307502] (-) TimerEvent: {}
+[1.408046] (-) TimerEvent: {}
+[1.461621] (telemetry_interfaces) JobProgress: {'identifier': 'telemetry_interfaces', 'progress': 'install'}
+[1.489993] (telemetry_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/toni/toni_umrt_ros/build/telemetry_interfaces'], 'cwd': '/home/toni/toni_umrt_ros/build/telemetry_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'toni', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/toni', 'OLDPWD': '/home/toni', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2233', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'toni', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'toni', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/toni-VirtualBox:@/tmp/.ICE-unix/2202,unix/toni-VirtualBox:/tmp/.ICE-unix/2202', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/317e20f1_a788_46c5_97a8_41a0db08deb2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.T3QBX2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/rolling', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/toni/toni_umrt_ros/build/telemetry_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling'}), 'shell': False}
+[1.508256] (-) TimerEvent: {}
+[1.511486] (telemetry_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.517427] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/ament_index/resource_index/rosidl_interfaces/telemetry_interfaces\n'}
+[1.518981] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/msg/Telemetry.json\n'}
+[1.519367] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/msg/Gps.json\n'}
+[1.519629] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/msg/Imu.json\n'}
+[1.520349] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces\n'}
+[1.520842] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg\n'}
+[1.521138] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/telemetry.h\n'}
+[1.521287] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/gps.h\n'}
+[1.521458] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail\n'}
+[1.521696] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__struct.h\n'}
+[1.522195] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__functions.c\n'}
+[1.522437] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__functions.c\n'}
+[1.522650] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__type_support.h\n'}
+[1.522859] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__functions.h\n'}
+[1.523037] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__struct.h\n'}
+[1.523183] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__struct.h\n'}
+[1.523362] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__description.c\n'}
+[1.523712] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__type_support.h\n'}
+[1.523909] (telemetry_interfaces) StdoutLine: {'line': b'-- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__type_support.c\n'}
+[1.524059] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__type_support.h\n'}
+[1.524200] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__description.c\n'}
+[1.524377] (telemetry_interfaces) StdoutLine: {'line': b'-- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__type_support.c\n'}
+[1.524733] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__functions.c\n'}
+[1.525013] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__functions.h\n'}
+[1.525171] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__description.c\n'}
+[1.525427] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__functions.h\n'}
+[1.525580] (telemetry_interfaces) StdoutLine: {'line': b'-- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__type_support.c\n'}
+[1.526465] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/imu.h\n'}
+[1.526760] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.527132] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/environment/library_path.sh\n'}
+[1.527301] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/environment/library_path.dsv\n'}
+[1.529889] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/libFILES__rosidl_generator_c.so\n'}
+[1.530205] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces\n'}
+[1.530539] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg\n'}
+[1.530738] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail\n'}
+[1.530964] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__rosidl_typesupport_fastrtps_c.h\n'}
+[1.531171] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__rosidl_typesupport_fastrtps_c.h\n'}
+[1.531358] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__rosidl_typesupport_fastrtps_c.h\n'}
+[1.531699] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.533935] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/libFILES__rosidl_typesupport_fastrtps_c.so\n'}
+[1.534152] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces\n'}
+[1.534294] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg\n'}
+[1.534463] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.534600] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail\n'}
+[1.534736] (telemetry_interfaces) StdoutLine: {'line': b'-- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__type_support.c\n'}
+[1.535486] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__rosidl_typesupport_introspection_c.h\n'}
+[1.535691] (telemetry_interfaces) StdoutLine: {'line': b'-- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__type_support.c\n'}
+[1.536166] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__rosidl_typesupport_introspection_c.h\n'}
+[1.536559] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__rosidl_typesupport_introspection_c.h\n'}
+[1.536746] (telemetry_interfaces) StdoutLine: {'line': b'-- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__type_support.c\n'}
+[1.539517] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/libFILES__rosidl_typesupport_introspection_c.so\n'}
+[1.542158] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/libFILES__rosidl_typesupport_c.so\n'}
+[1.542470] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces\n'}
+[1.542899] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg\n'}
+[1.543096] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/telemetry.hpp\n'}
+[1.543372] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.543557] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail\n'}
+[1.543956] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__struct.hpp\n'}
+[1.544123] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__type_support.hpp\n'}
+[1.544264] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__builder.hpp\n'}
+[1.544407] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__traits.hpp\n'}
+[1.544544] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__type_support.hpp\n'}
+[1.544686] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__traits.hpp\n'}
+[1.544891] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__type_support.hpp\n'}
+[1.545046] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__builder.hpp\n'}
+[1.545184] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__struct.hpp\n'}
+[1.545330] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__builder.hpp\n'}
+[1.545469] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__struct.hpp\n'}
+[1.545604] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__traits.hpp\n'}
+[1.545736] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/gps.hpp\n'}
+[1.545871] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/imu.hpp\n'}
+[1.546018] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces\n'}
+[1.546155] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg\n'}
+[1.546313] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail\n'}
+[1.546572] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.546716] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/dds_fastrtps\n'}
+[1.546980] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.547247] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.547479] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.547730] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/libFILES__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.548222] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces\n'}
+[1.548397] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg\n'}
+[1.548541] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail\n'}
+[1.548678] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__type_support.cpp\n'}
+[1.548913] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.549060] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__type_support.cpp\n'}
+[1.549215] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__type_support.cpp\n'}
+[1.549374] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.549514] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.550243] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/libFILES__rosidl_typesupport_introspection_cpp.so\n'}
+[1.552052] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/libFILES__rosidl_typesupport_cpp.so\n'}
+[1.552481] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/environment/pythonpath.sh\n'}
+[1.552660] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/environment/pythonpath.dsv\n'}
+[1.553417] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces-0.0.0-py3.12.egg-info\n'}
+[1.554045] (telemetry_interfaces) StdoutLine: {'line': b'-- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[1.554341] (telemetry_interfaces) StdoutLine: {'line': b'-- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[1.554614] (telemetry_interfaces) StdoutLine: {'line': b'-- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[1.554970] (telemetry_interfaces) StdoutLine: {'line': b'-- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[1.555350] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces\n'}
+[1.556132] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/_telemetry_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.556383] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/telemetry_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[1.556625] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/telemetry_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[1.556828] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/msg\n'}
+[1.557305] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/msg/_gps.py\n'}
+[1.557593] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/msg/_telemetry.py\n'}
+[1.558131] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/msg/_imu.py\n'}
+[1.558399] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/msg/_telemetry_s.c\n'}
+[1.558552] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/msg/_gps_s.c\n'}
+[1.558694] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/msg/__init__.py\n'}
+[1.558973] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/msg/_imu_s.c\n'}
+[1.559136] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/_telemetry_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.559277] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/telemetry_interfaces_s__rosidl_typesupport_c.so\n'}
+[1.559416] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/_telemetry_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[1.559552] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/__init__.py\n'}
+[1.608398] (-) TimerEvent: {}
+[1.646136] (telemetry_interfaces) StdoutLine: {'line': b"Listing '/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces'...\n"}
+[1.646473] (telemetry_interfaces) StdoutLine: {'line': b"Listing '/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/msg'...\n"}
+[1.661044] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/telemetry_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[1.666610] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/telemetry_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[1.666967] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/telemetry_interfaces_s__rosidl_typesupport_c.so\n'}
+[1.667268] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/libFILES__rosidl_generator_py.so\n'}
+[1.667442] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/msg/Telemetry.idl\n'}
+[1.667619] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/msg/Gps.idl\n'}
+[1.667764] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/msg/Imu.idl\n'}
+[1.667963] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/msg/Telemetry.msg\n'}
+[1.668482] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/msg/Gps.msg\n'}
+[1.668669] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/msg/Imu.msg\n'}
+[1.668893] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/ament_index/resource_index/package_run_dependencies/telemetry_interfaces\n'}
+[1.669240] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/ament_index/resource_index/parent_prefix_path/telemetry_interfaces\n'}
+[1.669446] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/environment/ament_prefix_path.sh\n'}
+[1.669587] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/environment/ament_prefix_path.dsv\n'}
+[1.669729] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/environment/path.sh\n'}
+[1.669931] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/environment/path.dsv\n'}
+[1.670242] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/local_setup.bash\n'}
+[1.670425] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/local_setup.sh\n'}
+[1.670564] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/local_setup.zsh\n'}
+[1.670701] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/local_setup.dsv\n'}
+[1.670924] (telemetry_interfaces) StdoutLine: {'line': b'-- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/package.dsv\n'}
+[1.671911] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/ament_index/resource_index/packages/telemetry_interfaces\n'}
+[1.675167] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/export_FILES__rosidl_generator_cExport.cmake\n'}
+[1.675603] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/export_FILES__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.676253] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/export_FILES__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.676607] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/export_FILES__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.677451] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/FILES__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.677813] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/FILES__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.678573] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/FILES__rosidl_typesupport_cExport.cmake\n'}
+[1.678939] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/FILES__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.679645] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/export_FILES__rosidl_generator_cppExport.cmake\n'}
+[1.680942] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/export_FILES__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.681274] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/export_FILES__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.682606] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/FILES__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.682956] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/FILES__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.684151] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/FILES__rosidl_typesupport_cppExport.cmake\n'}
+[1.684449] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/FILES__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.685448] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/export_FILES__rosidl_generator_pyExport.cmake\n'}
+[1.685820] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/export_FILES__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.686171] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[1.686388] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.686676] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.686876] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.687385] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.687673] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.687939] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.688123] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/telemetry_interfacesConfig.cmake\n'}
+[1.691869] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/telemetry_interfacesConfig-version.cmake\n'}
+[1.693049] (telemetry_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/package.xml\n'}
+[1.695202] (telemetry_interfaces) CommandEnded: {'returncode': 0}
+[1.708597] (-) TimerEvent: {}
+[1.809641] (-) TimerEvent: {}
+[1.910168] (-) TimerEvent: {}
+[1.999040] (telemetry_interfaces) JobEnded: {'identifier': 'telemetry_interfaces', 'rc': 0}
+[2.002052] (telemetry) JobStarted: {'identifier': 'telemetry'}
+[2.011145] (-) TimerEvent: {}
+[2.031005] (telemetry) JobProgress: {'identifier': 'telemetry', 'progress': 'cmake'}
+[2.037014] (telemetry) JobProgress: {'identifier': 'telemetry', 'progress': 'build'}
+[2.037156] (telemetry) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/toni/toni_umrt_ros/build/telemetry', '--', '-j4', '-l4'], 'cwd': '/home/toni/toni_umrt_ros/build/telemetry', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'toni', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/toni', 'OLDPWD': '/home/toni', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2233', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'toni', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'toni', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/toni-VirtualBox:@/tmp/.ICE-unix/2202,unix/toni-VirtualBox:/tmp/.ICE-unix/2202', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/317e20f1_a788_46c5_97a8_41a0db08deb2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.T3QBX2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/toni/toni_umrt_ros/install/telemetry_interfaces:/opt/ros/rolling', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/toni/toni_umrt_ros/build/telemetry', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages:/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/toni/toni_umrt_ros/install/telemetry_interfaces:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling'}), 'shell': False}
+[2.112112] (-) TimerEvent: {}
+[2.212637] (-) TimerEvent: {}
+[2.222664] (telemetry) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/telemetry_master.dir/src/telemetry_master.cpp.o\x1b[0m\n'}
+[2.224035] (telemetry) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/telemetry_master.dir/src/main.cpp.o\x1b[0m\n'}
+[2.312950] (-) TimerEvent: {}
+[2.413488] (-) TimerEvent: {}
+[2.514713] (-) TimerEvent: {}
+[2.617658] (-) TimerEvent: {}
+[2.721547] (-) TimerEvent: {}
+[2.824462] (-) TimerEvent: {}
+[2.926753] (-) TimerEvent: {}
+[3.027692] (-) TimerEvent: {}
+[3.129263] (-) TimerEvent: {}
+[3.229770] (-) TimerEvent: {}
+[3.331371] (-) TimerEvent: {}
+[3.431849] (-) TimerEvent: {}
+[3.533024] (-) TimerEvent: {}
+[3.634066] (-) TimerEvent: {}
+[3.734845] (-) TimerEvent: {}
+[3.836851] (-) TimerEvent: {}
+[3.939140] (-) TimerEvent: {}
+[4.040584] (-) TimerEvent: {}
+[4.143170] (-) TimerEvent: {}
+[4.244950] (-) TimerEvent: {}
+[4.346998] (-) TimerEvent: {}
+[4.448627] (-) TimerEvent: {}
+[4.550423] (-) TimerEvent: {}
+[4.651517] (-) TimerEvent: {}
+[4.752437] (-) TimerEvent: {}
+[4.853980] (-) TimerEvent: {}
+[4.955272] (-) TimerEvent: {}
+[5.056940] (-) TimerEvent: {}
+[5.158747] (-) TimerEvent: {}
+[5.259605] (-) TimerEvent: {}
+[5.361087] (-) TimerEvent: {}
+[5.462142] (-) TimerEvent: {}
+[5.565116] (-) TimerEvent: {}
+[5.667080] (-) TimerEvent: {}
+[5.768188] (-) TimerEvent: {}
+[5.869058] (-) TimerEvent: {}
+[5.971008] (-) TimerEvent: {}
+[6.073605] (-) TimerEvent: {}
+[6.176269] (-) TimerEvent: {}
+[6.277642] (-) TimerEvent: {}
+[6.378616] (-) TimerEvent: {}
+[6.479883] (-) TimerEvent: {}
+[6.582116] (-) TimerEvent: {}
+[6.683184] (-) TimerEvent: {}
+[6.785020] (-) TimerEvent: {}
+[6.886944] (-) TimerEvent: {}
+[6.987916] (-) TimerEvent: {}
+[7.088971] (-) TimerEvent: {}
+[7.189634] (-) TimerEvent: {}
+[7.293013] (-) TimerEvent: {}
+[7.393875] (-) TimerEvent: {}
+[7.497354] (-) TimerEvent: {}
+[7.598958] (-) TimerEvent: {}
+[7.700781] (-) TimerEvent: {}
+[7.801914] (-) TimerEvent: {}
+[7.903046] (-) TimerEvent: {}
+[8.004937] (-) TimerEvent: {}
+[8.106379] (-) TimerEvent: {}
+[8.207426] (-) TimerEvent: {}
+[8.308755] (-) TimerEvent: {}
+[8.409890] (-) TimerEvent: {}
+[8.511781] (-) TimerEvent: {}
+[8.613056] (-) TimerEvent: {}
+[8.713718] (-) TimerEvent: {}
+[8.815038] (-) TimerEvent: {}
+[8.916987] (-) TimerEvent: {}
+[9.019368] (-) TimerEvent: {}
+[9.120886] (-) TimerEvent: {}
+[9.221791] (-) TimerEvent: {}
+[9.324080] (-) TimerEvent: {}
+[9.425046] (-) TimerEvent: {}
+[9.525896] (-) TimerEvent: {}
+[9.627917] (-) TimerEvent: {}
+[9.729536] (-) TimerEvent: {}
+[9.831112] (-) TimerEvent: {}
+[9.932111] (-) TimerEvent: {}
+[10.033047] (-) TimerEvent: {}
+[10.135027] (-) TimerEvent: {}
+[10.236130] (-) TimerEvent: {}
+[10.336594] (-) TimerEvent: {}
+[10.437638] (-) TimerEvent: {}
+[10.540781] (-) TimerEvent: {}
+[10.641423] (-) TimerEvent: {}
+[10.743999] (-) TimerEvent: {}
+[10.844725] (-) TimerEvent: {}
+[10.946053] (-) TimerEvent: {}
+[11.046903] (-) TimerEvent: {}
+[11.148182] (-) TimerEvent: {}
+[11.249410] (-) TimerEvent: {}
+[11.350127] (-) TimerEvent: {}
+[11.451066] (-) TimerEvent: {}
+[11.551870] (-) TimerEvent: {}
+[11.653976] (-) TimerEvent: {}
+[11.754838] (-) TimerEvent: {}
+[11.856392] (-) TimerEvent: {}
+[11.957072] (-) TimerEvent: {}
+[12.058950] (-) TimerEvent: {}
+[12.160122] (-) TimerEvent: {}
+[12.261630] (-) TimerEvent: {}
+[12.362748] (-) TimerEvent: {}
+[12.463679] (-) TimerEvent: {}
+[12.564948] (-) TimerEvent: {}
+[12.665911] (-) TimerEvent: {}
+[12.766985] (-) TimerEvent: {}
+[12.868066] (-) TimerEvent: {}
+[12.968971] (-) TimerEvent: {}
+[13.069739] (-) TimerEvent: {}
+[13.171335] (-) TimerEvent: {}
+[13.273068] (-) TimerEvent: {}
+[13.374961] (-) TimerEvent: {}
+[13.475495] (-) TimerEvent: {}
+[13.576670] (-) TimerEvent: {}
+[13.678371] (-) TimerEvent: {}
+[13.778856] (-) TimerEvent: {}
+[13.880130] (-) TimerEvent: {}
+[13.981173] (-) TimerEvent: {}
+[14.082538] (-) TimerEvent: {}
+[14.184948] (-) TimerEvent: {}
+[14.286981] (-) TimerEvent: {}
+[14.390040] (-) TimerEvent: {}
+[14.491137] (-) TimerEvent: {}
+[14.593088] (-) TimerEvent: {}
+[14.695337] (-) TimerEvent: {}
+[14.796140] (-) TimerEvent: {}
+[14.898555] (-) TimerEvent: {}
+[14.999517] (-) TimerEvent: {}
+[15.100756] (-) TimerEvent: {}
+[15.202106] (-) TimerEvent: {}
+[15.303494] (-) TimerEvent: {}
+[15.404248] (-) TimerEvent: {}
+[15.505341] (-) TimerEvent: {}
+[15.607022] (-) TimerEvent: {}
+[15.707927] (-) TimerEvent: {}
+[15.809006] (-) TimerEvent: {}
+[15.910662] (-) TimerEvent: {}
+[16.011264] (-) TimerEvent: {}
+[16.113081] (-) TimerEvent: {}
+[16.214548] (-) TimerEvent: {}
+[16.315552] (-) TimerEvent: {}
+[16.416209] (-) TimerEvent: {}
+[16.517947] (-) TimerEvent: {}
+[16.620039] (-) TimerEvent: {}
+[16.721187] (-) TimerEvent: {}
+[16.822566] (-) TimerEvent: {}
+[16.923887] (-) TimerEvent: {}
+[17.025083] (-) TimerEvent: {}
+[17.125975] (-) TimerEvent: {}
+[17.227498] (-) TimerEvent: {}
+[17.329431] (-) TimerEvent: {}
+[17.430615] (-) TimerEvent: {}
+[17.532017] (-) TimerEvent: {}
+[17.633275] (-) TimerEvent: {}
+[17.734719] (-) TimerEvent: {}
+[17.836188] (-) TimerEvent: {}
+[17.937042] (-) TimerEvent: {}
+[18.038616] (-) TimerEvent: {}
+[18.140035] (-) TimerEvent: {}
+[18.241725] (-) TimerEvent: {}
+[18.342705] (-) TimerEvent: {}
+[18.444238] (-) TimerEvent: {}
+[18.545130] (-) TimerEvent: {}
+[18.646882] (-) TimerEvent: {}
+[18.748120] (-) TimerEvent: {}
+[18.849615] (-) TimerEvent: {}
+[18.951285] (-) TimerEvent: {}
+[19.051789] (-) TimerEvent: {}
+[19.153540] (-) TimerEvent: {}
+[19.254751] (-) TimerEvent: {}
+[19.356137] (-) TimerEvent: {}
+[19.457638] (-) TimerEvent: {}
+[19.559551] (-) TimerEvent: {}
+[19.660206] (-) TimerEvent: {}
+[19.761330] (-) TimerEvent: {}
+[19.862452] (-) TimerEvent: {}
+[19.963407] (-) TimerEvent: {}
+[20.064716] (-) TimerEvent: {}
+[20.165790] (-) TimerEvent: {}
+[20.267283] (-) TimerEvent: {}
+[20.367742] (-) TimerEvent: {}
+[20.469363] (-) TimerEvent: {}
+[20.570531] (-) TimerEvent: {}
+[20.671885] (-) TimerEvent: {}
+[20.772975] (-) TimerEvent: {}
+[20.873798] (-) TimerEvent: {}
+[20.974933] (-) TimerEvent: {}
+[21.075668] (-) TimerEvent: {}
+[21.176633] (-) TimerEvent: {}
+[21.277442] (-) TimerEvent: {}
+[21.378429] (-) TimerEvent: {}
+[21.479739] (-) TimerEvent: {}
+[21.580965] (-) TimerEvent: {}
+[21.682013] (-) TimerEvent: {}
+[21.782889] (-) TimerEvent: {}
+[21.884425] (-) TimerEvent: {}
+[21.986234] (-) TimerEvent: {}
+[22.087928] (-) TimerEvent: {}
+[22.189597] (-) TimerEvent: {}
+[22.291062] (-) TimerEvent: {}
+[22.392374] (-) TimerEvent: {}
+[22.493598] (-) TimerEvent: {}
+[22.595103] (-) TimerEvent: {}
+[22.696873] (-) TimerEvent: {}
+[22.797740] (-) TimerEvent: {}
+[22.899410] (-) TimerEvent: {}
+[23.000956] (-) TimerEvent: {}
+[23.102160] (-) TimerEvent: {}
+[23.203000] (-) TimerEvent: {}
+[23.304432] (-) TimerEvent: {}
+[23.405977] (-) TimerEvent: {}
+[23.507329] (-) TimerEvent: {}
+[23.607915] (-) TimerEvent: {}
+[23.710025] (-) TimerEvent: {}
+[23.813045] (-) TimerEvent: {}
+[23.916297] (-) TimerEvent: {}
+[24.019370] (-) TimerEvent: {}
+[24.121698] (-) TimerEvent: {}
+[24.224425] (-) TimerEvent: {}
+[24.327123] (-) TimerEvent: {}
+[24.430218] (-) TimerEvent: {}
+[24.532137] (-) TimerEvent: {}
+[24.635685] (-) TimerEvent: {}
+[24.738857] (-) TimerEvent: {}
+[24.841719] (-) TimerEvent: {}
+[24.943360] (-) TimerEvent: {}
+[25.043883] (-) TimerEvent: {}
+[25.146051] (-) TimerEvent: {}
+[25.246481] (-) TimerEvent: {}
+[25.348479] (-) TimerEvent: {}
+[25.452850] (-) TimerEvent: {}
+[25.553652] (-) TimerEvent: {}
+[25.654633] (-) TimerEvent: {}
+[25.756145] (-) TimerEvent: {}
+[25.858088] (-) TimerEvent: {}
+[25.959377] (-) TimerEvent: {}
+[26.060318] (-) TimerEvent: {}
+[26.161769] (-) TimerEvent: {}
+[26.263152] (-) TimerEvent: {}
+[26.363886] (-) TimerEvent: {}
+[26.464526] (-) TimerEvent: {}
+[26.565705] (-) TimerEvent: {}
+[26.666563] (-) TimerEvent: {}
+[26.767381] (-) TimerEvent: {}
+[26.872419] (-) TimerEvent: {}
+[26.978995] (-) TimerEvent: {}
+[27.084520] (-) TimerEvent: {}
+[27.191515] (-) TimerEvent: {}
+[27.298402] (-) TimerEvent: {}
+[27.404243] (-) TimerEvent: {}
+[27.510077] (-) TimerEvent: {}
+[27.614008] (-) TimerEvent: {}
+[27.720450] (-) TimerEvent: {}
+[27.826912] (-) TimerEvent: {}
+[27.933219] (-) TimerEvent: {}
+[28.034030] (-) TimerEvent: {}
+[28.057082] (telemetry) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable telemetry_master\x1b[0m\n'}
+[28.135153] (-) TimerEvent: {}
+[28.236173] (-) TimerEvent: {}
+[28.341117] (-) TimerEvent: {}
+[28.443276] (-) TimerEvent: {}
+[28.547949] (-) TimerEvent: {}
+[28.648524] (-) TimerEvent: {}
+[28.749070] (-) TimerEvent: {}
+[28.850096] (-) TimerEvent: {}
+[28.952301] (-) TimerEvent: {}
+[29.043677] (telemetry) StdoutLine: {'line': b'[100%] Built target telemetry_master\n'}
+[29.052880] (-) TimerEvent: {}
+[29.069937] (telemetry) CommandEnded: {'returncode': 0}
+[29.125643] (telemetry) JobProgress: {'identifier': 'telemetry', 'progress': 'install'}
+[29.126732] (telemetry) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/toni/toni_umrt_ros/build/telemetry'], 'cwd': '/home/toni/toni_umrt_ros/build/telemetry', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'toni', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/toni', 'OLDPWD': '/home/toni', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2233', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'toni', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'toni', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/toni-VirtualBox:@/tmp/.ICE-unix/2202,unix/toni-VirtualBox:/tmp/.ICE-unix/2202', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/317e20f1_a788_46c5_97a8_41a0db08deb2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.T3QBX2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/toni/toni_umrt_ros/install/telemetry_interfaces:/opt/ros/rolling', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/toni/toni_umrt_ros/build/telemetry', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages:/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/toni/toni_umrt_ros/install/telemetry_interfaces:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling'}), 'shell': False}
+[29.151481] (telemetry) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.152917] (-) TimerEvent: {}
+[29.157617] (telemetry) StdoutLine: {'line': b'-- Installing: /home/toni/toni_umrt_ros/install/telemetry/lib/telemetry/telemetry_master\n'}
+[29.174284] (telemetry) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/toni/toni_umrt_ros/install/telemetry/lib/telemetry/telemetry_master" to ""\n'}
+[29.176256] (telemetry) StdoutLine: {'line': b'-- Installing: /home/toni/toni_umrt_ros/install/telemetry/share/ament_index/resource_index/package_run_dependencies/telemetry\n'}
+[29.177915] (telemetry) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/ament_index/resource_index/parent_prefix_path/telemetry\n'}
+[29.179310] (telemetry) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/environment/ament_prefix_path.sh\n'}
+[29.179632] (telemetry) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/environment/ament_prefix_path.dsv\n'}
+[29.180015] (telemetry) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/environment/path.sh\n'}
+[29.180286] (telemetry) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/environment/path.dsv\n'}
+[29.180481] (telemetry) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/local_setup.bash\n'}
+[29.180655] (telemetry) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/local_setup.sh\n'}
+[29.181037] (telemetry) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/local_setup.zsh\n'}
+[29.181229] (telemetry) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/local_setup.dsv\n'}
+[29.181379] (telemetry) StdoutLine: {'line': b'-- Installing: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/package.dsv\n'}
+[29.182173] (telemetry) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/ament_index/resource_index/packages/telemetry\n'}
+[29.182512] (telemetry) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/cmake/telemetryConfig.cmake\n'}
+[29.182764] (telemetry) StdoutLine: {'line': b'-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/cmake/telemetryConfig-version.cmake\n'}
+[29.183146] (telemetry) StdoutLine: {'line': b'-- Installing: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/package.xml\n'}
+[29.186437] (telemetry) CommandEnded: {'returncode': 0}
+[29.253960] (-) TimerEvent: {}
+[29.269956] (telemetry) JobEnded: {'identifier': 'telemetry', 'rc': 0}
+[29.271693] (-) EventReactorShutdown: {}

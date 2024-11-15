@@ -1,0 +1,27 @@
+[0.014s] Invoking command in '/home/toni/toni_umrt_ros/build/telemetry': CMAKE_PREFIX_PATH=/home/toni/toni_umrt_ros/install/telemetry_interfaces:/home/toni/toni_umrt_ros/install/telemetry:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/toni/toni_umrt_ros/build/telemetry -- -j4 -l4
+[0.066s] [ 80%] Built target telemetry_master
+[0.066s] [ 60%] [32mBuilding CXX object CMakeFiles/telemetry_tester.dir/src/telemetry_tester.cpp.o[0m
+[4.413s] [100%] [32m[1mLinking CXX executable telemetry_tester[0m
+[4.708s] [100%] Built target telemetry_tester
+[4.717s] Invoked command in '/home/toni/toni_umrt_ros/build/telemetry' returned '0': CMAKE_PREFIX_PATH=/home/toni/toni_umrt_ros/install/telemetry_interfaces:/home/toni/toni_umrt_ros/install/telemetry:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/toni/toni_umrt_ros/build/telemetry -- -j4 -l4
+[4.741s] Invoking command in '/home/toni/toni_umrt_ros/build/telemetry': CMAKE_PREFIX_PATH=/home/toni/toni_umrt_ros/install/telemetry_interfaces:/home/toni/toni_umrt_ros/install/telemetry:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/toni/toni_umrt_ros/build/telemetry
+[4.748s] -- Install configuration: ""
+[4.759s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/lib/telemetry/telemetry_master
+[4.759s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry/lib/telemetry/telemetry_tester
+[4.760s] -- Set non-toolchain portion of runtime path of "/home/toni/toni_umrt_ros/install/telemetry/lib/telemetry/telemetry_tester" to ""
+[4.760s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/ament_index/resource_index/package_run_dependencies/telemetry
+[4.760s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry/share/ament_index/resource_index/parent_prefix_path/telemetry
+[4.760s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/environment/ament_prefix_path.sh
+[4.760s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/environment/ament_prefix_path.dsv
+[4.760s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/environment/path.sh
+[4.760s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/environment/path.dsv
+[4.760s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/local_setup.bash
+[4.760s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/local_setup.sh
+[4.761s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/local_setup.zsh
+[4.761s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/local_setup.dsv
+[4.761s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/package.dsv
+[4.761s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/ament_index/resource_index/packages/telemetry
+[4.762s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/cmake/telemetryConfig.cmake
+[4.762s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/cmake/telemetryConfig-version.cmake
+[4.762s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/package.xml
+[4.763s] Invoked command in '/home/toni/toni_umrt_ros/build/telemetry' returned '0': CMAKE_PREFIX_PATH=/home/toni/toni_umrt_ros/install/telemetry_interfaces:/home/toni/toni_umrt_ros/install/telemetry:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/toni/toni_umrt_ros/build/telemetry

@@ -1,0 +1,11 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/telemetry_master.dir/src/telemetry_master.cpp.o[0m
+[01m[K/home/toni/toni_umrt_ros/src/telemetry/src/telemetry_master.cpp:[m[K In member function ‘[01m[Kvoid TelemetryMaster::[01;32m[Kpublisher_callback[m[K()[m[K’:
+[01m[K/home/toni/toni_umrt_ros/src/telemetry/src/telemetry_master.cpp:30:34:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Ktelemetry[m[K’
+   30 |         telemetry.time_stamp = 30[01;31m[K [m[K  //std::time(nullptr);
+      |                                  [01;31m[K^[m[K
+      |                                  [32m[K;[m[K
+   31 |         [32m[Ktelemetry[m[K.gps_latitude = current_gps_data->latitude;
+      |         [32m[K~~~~~~~~~[m[K                 
+gmake[2]: *** [CMakeFiles/telemetry_master.dir/build.make:76: CMakeFiles/telemetry_master.dir/src/telemetry_master.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/telemetry_master.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

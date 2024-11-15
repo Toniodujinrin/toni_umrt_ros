@@ -1,0 +1,13 @@
+[0.009s] Invoking command in '/home/toni/toni_umrt_ros/build/telemetry': CMAKE_PREFIX_PATH=/home/toni/toni_umrt_ros/install/telemetry_interfaces:/home/toni/toni_umrt_ros/install/telemetry:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/toni/toni_umrt_ros/build/telemetry -- -j4 -l4
+[0.055s] [ 33%] [32mBuilding CXX object CMakeFiles/telemetry_master.dir/src/telemetry_master.cpp.o[0m
+[2.147s] [01m[K/home/toni/toni_umrt_ros/src/telemetry/src/telemetry_master.cpp:[m[K In member function ‘[01m[Kvoid TelemetryMaster::[01;32m[Kpublisher_callback[m[K()[m[K’:
+[2.147s] [01m[K/home/toni/toni_umrt_ros/src/telemetry/src/telemetry_master.cpp:30:34:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Ktelemetry[m[K’
+[2.147s]    30 |         telemetry.time_stamp = 30[01;31m[K [m[K  //std::time(nullptr);
+[2.147s]       |                                  [01;31m[K^[m[K
+[2.147s]       |                                  [32m[K;[m[K
+[2.147s]    31 |         [32m[Ktelemetry[m[K.gps_latitude = current_gps_data->latitude;
+[2.147s]       |         [32m[K~~~~~~~~~[m[K                 
+[4.628s] gmake[2]: *** [CMakeFiles/telemetry_master.dir/build.make:76: CMakeFiles/telemetry_master.dir/src/telemetry_master.cpp.o] Error 1
+[4.628s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/telemetry_master.dir/all] Error 2
+[4.628s] gmake: *** [Makefile:146: all] Error 2
+[4.630s] Invoked command in '/home/toni/toni_umrt_ros/build/telemetry' returned '2': CMAKE_PREFIX_PATH=/home/toni/toni_umrt_ros/install/telemetry_interfaces:/home/toni/toni_umrt_ros/install/telemetry:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/toni/toni_umrt_ros/build/telemetry -- -j4 -l4

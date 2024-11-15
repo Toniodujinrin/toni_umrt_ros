@@ -1,0 +1,2 @@
+Invoking command in '/home/toni/toni_umrt_ros/build/telemetry_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/toni/toni_umrt_ros/build/telemetry_interfaces -- -j4 -l4
+Invoked command in '/home/toni/toni_umrt_ros/build/telemetry_interfaces' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/toni/toni_umrt_ros/build/telemetry_interfaces -- -j4 -l4

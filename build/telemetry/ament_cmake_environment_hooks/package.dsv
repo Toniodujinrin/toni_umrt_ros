@@ -1,0 +1,4 @@
+source;share/telemetry/local_setup.bash
+source;share/telemetry/local_setup.dsv
+source;share/telemetry/local_setup.sh
+source;share/telemetry/local_setup.zsh

@@ -1,0 +1,200 @@
+[0.000000] (-) TimerEvent: {}
+[0.001270] (telemetry) JobQueued: {'identifier': 'telemetry', 'dependencies': OrderedDict()}
+[0.001778] (telemetry_interfaces) JobQueued: {'identifier': 'telemetry_interfaces', 'dependencies': OrderedDict()}
+[0.001860] (telemetry) JobStarted: {'identifier': 'telemetry'}
+[0.019756] (telemetry_interfaces) JobStarted: {'identifier': 'telemetry_interfaces'}
+[0.034410] (telemetry) JobProgress: {'identifier': 'telemetry', 'progress': 'cmake'}
+[0.035143] (telemetry) Command: {'cmd': ['/usr/bin/cmake', '/home/toni/toni_umrt_ros/src/telemetry', '-DCMAKE_INSTALL_PREFIX=/home/toni/toni_umrt_ros/install/telemetry'], 'cwd': '/home/toni/toni_umrt_ros/build/telemetry', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'toni', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/toni', 'OLDPWD': '/home/toni/toni_umrt_ros/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2259', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/toni/umrt_ros/install', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'toni', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'toni', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/toni-VirtualBox:@/tmp/.ICE-unix/2216,unix/toni-VirtualBox:/tmp/.ICE-unix/2216', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/baac9e88_8776_48aa_a5b9_29a2ad304f7c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.HA20W2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/rolling', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/toni/toni_umrt_ros/build/telemetry', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling'}), 'shell': False}
+[0.044145] (telemetry_interfaces) JobProgress: {'identifier': 'telemetry_interfaces', 'progress': 'cmake'}
+[0.045568] (telemetry_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/toni/toni_umrt_ros/src/telemetry_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/toni/toni_umrt_ros/install/telemetry_interfaces'], 'cwd': '/home/toni/toni_umrt_ros/build/telemetry_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'toni', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/toni', 'OLDPWD': '/home/toni/toni_umrt_ros/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2259', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/toni/umrt_ros/install', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'toni', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'toni', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/toni-VirtualBox:@/tmp/.ICE-unix/2216,unix/toni-VirtualBox:/tmp/.ICE-unix/2216', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/baac9e88_8776_48aa_a5b9_29a2ad304f7c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.HA20W2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/rolling', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/toni/toni_umrt_ros/build/telemetry_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling'}), 'shell': False}
+[0.149897] (-) TimerEvent: {}
+[0.250598] (-) TimerEvent: {}
+[0.351328] (-) TimerEvent: {}
+[0.416663] (telemetry) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[0.417310] (telemetry_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[0.455043] (-) TimerEvent: {}
+[0.556352] (-) TimerEvent: {}
+[0.564915] (telemetry_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[0.574273] (telemetry) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[0.615128] (telemetry) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.615623] (telemetry_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.656543] (-) TimerEvent: {}
+[0.765967] (-) TimerEvent: {}
+[0.819184] (telemetry_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.819544] (telemetry) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.837779] (telemetry_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.841384] (telemetry) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.847037] (telemetry) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.847396] (telemetry_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.848558] (telemetry) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.849090] (telemetry_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.867115] (-) TimerEvent: {}
+[0.873045] (telemetry_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.873531] (telemetry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.967994] (-) TimerEvent: {}
+[1.070886] (-) TimerEvent: {}
+[1.102153] (telemetry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.104725] (telemetry_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.126082] (telemetry_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.127142] (telemetry_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.127398] (telemetry) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.128578] (telemetry) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.128970] (telemetry_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.130834] (telemetry) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.147468] (telemetry_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[1.147879] (telemetry) StdoutLine: {'line': b'-- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[1.171151] (-) TimerEvent: {}
+[1.271631] (-) TimerEvent: {}
+[1.373052] (-) TimerEvent: {}
+[1.476943] (-) TimerEvent: {}
+[1.488114] (telemetry_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.498003] (telemetry) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.580954] (-) TimerEvent: {}
+[1.723793] (-) TimerEvent: {}
+[1.757143] (telemetry_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.7.1 (/opt/ros/rolling/share/rosidl_default_generators/cmake)\n'}
+[1.773079] (telemetry_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.799034] (telemetry) StdoutLine: {'line': b'-- Found rclcpp: 28.3.3 (/opt/ros/rolling/share/rclcpp/cmake)\n'}
+[1.824805] (-) TimerEvent: {}
+[1.882887] (telemetry_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.886334] (telemetry) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)\n'}
+[1.914591] (telemetry) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)\n'}
+[1.926363] (-) TimerEvent: {}
+[1.953257] (telemetry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.991301] (telemetry_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.8.1 (/opt/ros/rolling/share/rosidl_adapter/cmake)\n'}
+[1.994438] (telemetry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.027021] (-) TimerEvent: {}
+[2.127916] (-) TimerEvent: {}
+[2.207360] (telemetry) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.4.3 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)\n'}
+[2.220124] (telemetry) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.0.1 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.232894] (-) TimerEvent: {}
+[2.333527] (-) TimerEvent: {}
+[2.434478] (-) TimerEvent: {}
+[2.453911] (telemetry) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[2.496986] (telemetry) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/rolling/include (Required is at least version "2.13") \n'}
+[2.536844] (-) TimerEvent: {}
+[2.551950] (telemetry) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.636971] (-) TimerEvent: {}
+[2.737969] (-) TimerEvent: {}
+[2.746446] (telemetry) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:11 (find_package):\n'}
+[2.746993] (telemetry) StderrLine: {'line': b'  By not providing "Findtelemetry_interface.cmake" in CMAKE_MODULE_PATH this\n'}
+[2.747289] (telemetry) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[2.747547] (telemetry) StderrLine: {'line': b'  "telemetry_interface", but CMake did not find one.\n'}
+[2.747777] (telemetry) StderrLine: {'line': b'\n'}
+[2.748075] (telemetry) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[2.748322] (telemetry) StderrLine: {'line': b'  "telemetry_interface" with any of the following names:\n'}
+[2.748588] (telemetry) StderrLine: {'line': b'\n'}
+[2.748867] (telemetry) StderrLine: {'line': b'    telemetry_interfaceConfig.cmake\n'}
+[2.749116] (telemetry) StderrLine: {'line': b'    telemetry_interface-config.cmake\n'}
+[2.749353] (telemetry) StderrLine: {'line': b'\n'}
+[2.749580] (telemetry) StderrLine: {'line': b'  Add the installation prefix of "telemetry_interface" to CMAKE_PREFIX_PATH\n'}
+[2.749801] (telemetry) StderrLine: {'line': b'  or set "telemetry_interface_DIR" to a directory containing one of the above\n'}
+[2.750072] (telemetry) StderrLine: {'line': b'  files.  If "telemetry_interface" provides a separate development package or\n'}
+[2.750302] (telemetry) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[2.750522] (telemetry) StderrLine: {'line': b'\n'}
+[2.750744] (telemetry) StderrLine: {'line': b'\x1b[0m\n'}
+[2.849897] (-) TimerEvent: {}
+[2.950667] (-) TimerEvent: {}
+[3.019615] (telemetry) StdoutLine: {'line': b'-- Configuring done (3.0s)\n'}
+[3.048805] (telemetry) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.051190] (-) TimerEvent: {}
+[3.054793] (telemetry) StdoutLine: {'line': b'-- Build files have been written to: /home/toni/toni_umrt_ros/build/telemetry\n'}
+[3.072577] (telemetry) CommandEnded: {'returncode': 0}
+[3.075571] (telemetry) JobProgress: {'identifier': 'telemetry', 'progress': 'build'}
+[3.075656] (telemetry) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/toni/toni_umrt_ros/build/telemetry', '--', '-j4', '-l4'], 'cwd': '/home/toni/toni_umrt_ros/build/telemetry', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'toni', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/toni', 'OLDPWD': '/home/toni/toni_umrt_ros/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2259', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/toni/umrt_ros/install', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'toni', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'toni', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/toni-VirtualBox:@/tmp/.ICE-unix/2216,unix/toni-VirtualBox:/tmp/.ICE-unix/2216', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/baac9e88_8776_48aa_a5b9_29a2ad304f7c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.HA20W2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.99', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/rolling', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/toni/toni_umrt_ros/build/telemetry', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling'}), 'shell': False}
+[3.153280] (-) TimerEvent: {}
+[3.195152] (telemetry) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/telemetry_master.dir/src/main.cpp.o\x1b[0m\n'}
+[3.199190] (telemetry) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/telemetry_master.dir/src/telemetry_master.cpp.o\x1b[0m\n'}
+[3.229141] (telemetry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/toni/toni_umrt_ros/src/telemetry/src/telemetry_master.cpp:1\x1b[m\x1b[K:\n'}
+[3.229456] (telemetry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toni/toni_umrt_ros/src/telemetry/src/telemetry_master.h:1:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra tokens at end of #ifndef directive\n'}
+[3.229630] (telemetry) StderrLine: {'line': b'    1 | #ifndef TELEMETRY_MASTER\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[3.229769] (telemetry) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.229928] (telemetry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toni/toni_umrt_ros/src/telemetry/src/telemetry_master.h:2:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++11 requires whitespace after the macro name\n'}
+[3.230083] (telemetry) StderrLine: {'line': b'    2 | #define \x1b[01;35m\x1b[KTELEMETRY_MASTER\x1b[m\x1b[K;\n'}
+[3.230231] (telemetry) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.253933] (-) TimerEvent: {}
+[3.360343] (-) TimerEvent: {}
+[3.468883] (-) TimerEvent: {}
+[3.557655] (telemetry_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.13.0 (/opt/ros/rolling/share/ament_cmake_ros/cmake)\n'}
+[3.572876] (-) TimerEvent: {}
+[3.676855] (-) TimerEvent: {}
+[3.745835] (telemetry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toni/toni_umrt_ros/src/telemetry/src/telemetry_master.h:7:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ktelemetry_interfaces/msg/telemetry.hpp: No such file or directory\n'}
+[3.746264] (telemetry) StderrLine: {'line': b'    7 | #include \x1b[01;31m\x1b[K"telemetry_interfaces/msg/telemetry.hpp"\x1b[m\x1b[K\n'}
+[3.746429] (telemetry) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.746576] (telemetry) StderrLine: {'line': b'compilation terminated.\n'}
+[3.747458] (telemetry) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/telemetry_master.dir/build.make:76: CMakeFiles/telemetry_master.dir/src/telemetry_master.cpp.o] Error 1\n'}
+[3.747667] (telemetry) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[3.759975] (telemetry) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/toni/toni_umrt_ros/src/telemetry/src/main.cpp:2\x1b[m\x1b[K:\n'}
+[3.760236] (telemetry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toni/toni_umrt_ros/src/telemetry/src/telemetry_master.h:1:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra tokens at end of #ifndef directive\n'}
+[3.760377] (telemetry) StderrLine: {'line': b'    1 | #ifndef TELEMETRY_MASTER\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[3.760574] (telemetry) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.760707] (telemetry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toni/toni_umrt_ros/src/telemetry/src/telemetry_master.h:2:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++11 requires whitespace after the macro name\n'}
+[3.760882] (telemetry) StderrLine: {'line': b'    2 | #define \x1b[01;35m\x1b[KTELEMETRY_MASTER\x1b[m\x1b[K;\n'}
+[3.761014] (telemetry) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.761206] (telemetry) StderrLine: {'line': b'\x1b[01m\x1b[K/home/toni/toni_umrt_ros/src/telemetry/src/telemetry_master.h:7:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ktelemetry_interfaces/msg/telemetry.hpp: No such file or directory\n'}
+[3.761346] (telemetry) StderrLine: {'line': b'    7 | #include \x1b[01;31m\x1b[K"telemetry_interfaces/msg/telemetry.hpp"\x1b[m\x1b[K\n'}
+[3.761472] (telemetry) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.761595] (telemetry) StderrLine: {'line': b'compilation terminated.\n'}
+[3.767446] (telemetry) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/telemetry_master.dir/build.make:90: CMakeFiles/telemetry_master.dir/src/main.cpp.o] Error 1\n'}
+[3.767862] (telemetry) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/telemetry_master.dir/all] Error 2\n'}
+[3.768306] (telemetry) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.772405] (telemetry) CommandEnded: {'returncode': 2}
+[3.777210] (-) TimerEvent: {}
+[3.859548] (telemetry) JobEnded: {'identifier': 'telemetry', 'rc': 2}
+[3.879936] (-) TimerEvent: {}
+[3.981535] (-) TimerEvent: {}
+[4.082352] (-) TimerEvent: {}
+[4.217492] (-) TimerEvent: {}
+[4.318085] (-) TimerEvent: {}
+[4.418638] (-) TimerEvent: {}
+[4.519631] (-) TimerEvent: {}
+[4.615240] (telemetry_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.620046] (-) TimerEvent: {}
+[4.720890] (-) TimerEvent: {}
+[4.832910] (-) TimerEvent: {}
+[4.937608] (-) TimerEvent: {}
+[5.038144] (-) TimerEvent: {}
+[5.138726] (-) TimerEvent: {}
+[5.244852] (-) TimerEvent: {}
+[5.345492] (-) TimerEvent: {}
+[5.446250] (-) TimerEvent: {}
+[5.551283] (-) TimerEvent: {}
+[5.651685] (-) TimerEvent: {}
+[5.764333] (-) TimerEvent: {}
+[5.935185] (telemetry_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.935519] (-) TimerEvent: {}
+[5.953470] (telemetry_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.12.0 (/opt/ros/rolling/share/python_cmake_module/cmake)\n'}
+[6.035875] (-) TimerEvent: {}
+[6.145151] (-) TimerEvent: {}
+[6.252106] (-) TimerEvent: {}
+[6.274655] (telemetry_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[6.373413] (-) TimerEvent: {}
+[6.476199] (-) TimerEvent: {}
+[6.577095] (-) TimerEvent: {}
+[6.681930] (-) TimerEvent: {}
+[6.782489] (-) TimerEvent: {}
+[6.883288] (-) TimerEvent: {}
+[6.983996] (-) TimerEvent: {}
+[7.085699] (-) TimerEvent: {}
+[7.186916] (-) TimerEvent: {}
+[7.417333] (-) TimerEvent: {}
+[7.505439] (telemetry_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[7.591065] (-) TimerEvent: {}
+[7.592093] (telemetry_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.18.1 (/opt/ros/rolling/share/ament_lint_auto/cmake)\n'}
+[7.739886] (telemetry_interfaces) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.740268] (-) TimerEvent: {}
+[7.740502] (telemetry_interfaces) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[7.741022] (telemetry_interfaces) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.751172] (telemetry_interfaces) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[7.751687] (telemetry_interfaces) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[7.774648] (telemetry_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.785939] (telemetry_interfaces) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[7.858373] (telemetry_interfaces) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.858661] (-) TimerEvent: {}
+[7.858933] (telemetry_interfaces) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.869111] (telemetry_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.887093] (telemetry_interfaces) StdoutLine: {'line': b'-- Configuring done (7.8s)\n'}
+[7.943187] (telemetry_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[7.948944] (telemetry_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/toni/toni_umrt_ros/build/telemetry_interfaces\n'}
+[7.960385] (-) TimerEvent: {}
+[7.964377] (telemetry_interfaces) JobEnded: {'identifier': 'telemetry_interfaces', 'rc': 'SIGINT'}
+[7.980885] (-) EventReactorShutdown: {}

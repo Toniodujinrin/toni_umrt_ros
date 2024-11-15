@@ -1,0 +1,31 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/telemetry_master.dir/src/telemetry_master.cpp.o[0m
+In file included from [01m[K/home/toni/toni_umrt_ros/src/telemetry/src/telemetry_master.cpp:1[m[K:
+[01m[K/home/toni/toni_umrt_ros/src/telemetry/src/telemetry_master.h:1:25:[m[K [01;35m[Kwarning: [m[Kextra tokens at end of #ifndef directive
+    1 | #ifndef TELEMETRY_MASTER[01;35m[K;[m[K
+      |                         [01;35m[K^[m[K
+[01m[K/home/toni/toni_umrt_ros/src/telemetry/src/telemetry_master.h:2:9:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+    2 | #define [01;35m[KTELEMETRY_MASTER[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/toni/toni_umrt_ros/src/telemetry/src/telemetry_master.h:40:7:[m[K [01;35m[Kwarning: [m[Kextra tokens at end of #endif directive [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wendif-labels-Wendif-labels]8;;[m[K]
+   40 | #endif[01;35m[K;[m[K
+      |       [01;35m[K^[m[K
+[ 66%] [32m[1mLinking CXX executable telemetry_master[0m
+[100%] Built target telemetry_master
+-- Install configuration: ""
+-- Installing: /home/toni/toni_umrt_ros/install/telemetry/lib/telemetry/telemetry_master
+-- Set non-toolchain portion of runtime path of "/home/toni/toni_umrt_ros/install/telemetry/lib/telemetry/telemetry_master" to ""
+-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/ament_index/resource_index/package_run_dependencies/telemetry
+-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/ament_index/resource_index/parent_prefix_path/telemetry
+-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/environment/ament_prefix_path.sh
+-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/environment/path.sh
+-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/environment/path.dsv
+-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/local_setup.bash
+-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/local_setup.sh
+-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/local_setup.zsh
+-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/local_setup.dsv
+-- Installing: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/package.dsv
+-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/ament_index/resource_index/packages/telemetry
+-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/cmake/telemetryConfig.cmake
+-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/cmake/telemetryConfig-version.cmake
+-- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/package.xml

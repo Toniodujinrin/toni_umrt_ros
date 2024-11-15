@@ -1,0 +1,265 @@
+[0.027s] Invoking command in '/home/toni/toni_umrt_ros/build/telemetry_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/toni/toni_umrt_ros/build/telemetry_interfaces -- -j4 -l4
+[0.143s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[0.158s] [  1%] Built target ament_cmake_python_copy_telemetry_interfaces
+[0.659s] running egg_info
+[0.664s] creating telemetry_interfaces.egg-info
+[0.679s] [  1%] Built target FILES__rosidl_generator_type_description
+[0.706s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.722s] writing telemetry_interfaces.egg-info/PKG-INFO
+[0.723s] writing dependency_links to telemetry_interfaces.egg-info/dependency_links.txt
+[0.723s] writing top-level names to telemetry_interfaces.egg-info/top_level.txt
+[0.723s] writing manifest file 'telemetry_interfaces.egg-info/SOURCES.txt'
+[0.743s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.855s] reading manifest file 'telemetry_interfaces.egg-info/SOURCES.txt'
+[0.856s] writing manifest file 'telemetry_interfaces.egg-info/SOURCES.txt'
+[0.919s] [  5%] Built target ament_cmake_python_build_telemetry_interfaces_egg
+[1.554s] [  5%] Built target FILES__cpp
+[1.676s] [  9%] [32mBuilding C object CMakeFiles/FILES__rosidl_generator_c.dir/rosidl_generator_c/telemetry_interfaces/msg/detail/telemetry__functions.c.o[0m
+[1.676s] [  9%] [32mBuilding C object CMakeFiles/FILES__rosidl_generator_c.dir/rosidl_generator_c/telemetry_interfaces/msg/detail/gps__description.c.o[0m
+[1.681s] [ 11%] [32mBuilding C object CMakeFiles/FILES__rosidl_generator_c.dir/rosidl_generator_c/telemetry_interfaces/msg/detail/telemetry__description.c.o[0m
+[1.681s] [ 12%] [32mBuilding C object CMakeFiles/FILES__rosidl_generator_c.dir/rosidl_generator_c/telemetry_interfaces/msg/detail/telemetry__type_support.c.o[0m
+[1.757s] [ 14%] [32mBuilding C object CMakeFiles/FILES__rosidl_generator_c.dir/rosidl_generator_c/telemetry_interfaces/msg/detail/gps__functions.c.o[0m
+[1.791s] [ 16%] [32mBuilding C object CMakeFiles/FILES__rosidl_generator_c.dir/rosidl_generator_c/telemetry_interfaces/msg/detail/imu__description.c.o[0m
+[1.791s] [ 18%] [32mBuilding C object CMakeFiles/FILES__rosidl_generator_c.dir/rosidl_generator_c/telemetry_interfaces/msg/detail/gps__type_support.c.o[0m
+[1.839s] [ 20%] [32mBuilding C object CMakeFiles/FILES__rosidl_generator_c.dir/rosidl_generator_c/telemetry_interfaces/msg/detail/imu__functions.c.o[0m
+[1.863s] [ 22%] [32mBuilding C object CMakeFiles/FILES__rosidl_generator_c.dir/rosidl_generator_c/telemetry_interfaces/msg/detail/imu__type_support.c.o[0m
+[1.946s] [ 24%] [32m[1mLinking C shared library libFILES__rosidl_generator_c.so[0m
+[2.027s] [ 24%] Built target FILES__rosidl_generator_c
+[2.055s] [ 25%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.055s] [ 27%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.055s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.055s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.717s] [ 33%] [32mBuilding CXX object CMakeFiles/FILES__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/telemetry_interfaces/msg/telemetry__type_support.cpp.o[0m
+[2.822s] [ 35%] [32mBuilding CXX object CMakeFiles/FILES__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/telemetry_interfaces/msg/detail/telemetry__type_support.cpp.o[0m
+[3.022s] [ 37%] [32mBuilding CXX object CMakeFiles/FILES__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/telemetry_interfaces/msg/detail/telemetry__type_support_c.cpp.o[0m
+[3.027s] [ 38%] [32mBuilding CXX object CMakeFiles/FILES__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/telemetry_interfaces/msg/detail/dds_fastrtps/telemetry__type_support.cpp.o[0m
+[3.576s] [ 40%] [32mBuilding CXX object CMakeFiles/FILES__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/telemetry_interfaces/msg/gps__type_support.cpp.o[0m
+[3.744s] [ 42%] [32mBuilding CXX object CMakeFiles/FILES__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/telemetry_interfaces/msg/detail/gps__type_support.cpp.o[0m
+[4.348s] [ 44%] [32mBuilding CXX object CMakeFiles/FILES__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/telemetry_interfaces/msg/detail/dds_fastrtps/gps__type_support.cpp.o[0m
+[4.370s] [ 46%] [32mBuilding CXX object CMakeFiles/FILES__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/telemetry_interfaces/msg/detail/gps__type_support_c.cpp.o[0m
+[4.442s] [ 48%] [32mBuilding CXX object CMakeFiles/FILES__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/telemetry_interfaces/msg/imu__type_support.cpp.o[0m
+[4.631s] [ 50%] [32mBuilding CXX object CMakeFiles/FILES__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/telemetry_interfaces/msg/detail/imu__type_support.cpp.o[0m
+[5.304s] [ 51%] [32m[1mLinking CXX shared library libFILES__rosidl_typesupport_cpp.so[0m
+[5.403s] [ 51%] Built target FILES__rosidl_typesupport_cpp
+[5.439s] [ 53%] [32mBuilding CXX object CMakeFiles/FILES__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/telemetry_interfaces/msg/detail/dds_fastrtps/imu__type_support.cpp.o[0m
+[5.564s] [ 55%] [32m[1mLinking CXX shared library libFILES__rosidl_typesupport_introspection_cpp.so[0m
+[5.669s] [ 55%] Built target FILES__rosidl_typesupport_introspection_cpp
+[5.699s] [ 57%] [32mBuilding CXX object CMakeFiles/FILES__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/telemetry_interfaces/msg/detail/imu__type_support_c.cpp.o[0m
+[5.700s] [ 59%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.737s] [ 61%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.430s] [ 62%] [32mBuilding CXX object CMakeFiles/FILES__rosidl_typesupport_c.dir/rosidl_typesupport_c/telemetry_interfaces/msg/telemetry__type_support.cpp.o[0m
+[6.548s] [ 64%] [32mBuilding CXX object CMakeFiles/FILES__rosidl_typesupport_c.dir/rosidl_typesupport_c/telemetry_interfaces/msg/gps__type_support.cpp.o[0m
+[6.558s] [ 66%] [32mBuilding C object CMakeFiles/FILES__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/telemetry_interfaces/msg/detail/telemetry__type_support.c.o[0m
+[6.652s] [ 68%] [32mBuilding CXX object CMakeFiles/FILES__rosidl_typesupport_c.dir/rosidl_typesupport_c/telemetry_interfaces/msg/imu__type_support.cpp.o[0m
+[6.692s] [ 70%] [32mBuilding C object CMakeFiles/FILES__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/telemetry_interfaces/msg/detail/gps__type_support.c.o[0m
+[6.764s] [ 72%] [32m[1mLinking CXX shared library libFILES__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.768s] [ 74%] [32m[1mLinking CXX shared library libFILES__rosidl_typesupport_c.so[0m
+[6.788s] [ 75%] [32mBuilding C object CMakeFiles/FILES__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/telemetry_interfaces/msg/detail/imu__type_support.c.o[0m
+[6.872s] [ 75%] Built target FILES__rosidl_typesupport_c
+[6.879s] [ 77%] [32m[1mLinking C shared library libFILES__rosidl_typesupport_introspection_c.so[0m
+[6.885s] [ 77%] Built target FILES__rosidl_typesupport_fastrtps_cpp
+[6.944s] [ 77%] Built target FILES__rosidl_typesupport_introspection_c
+[6.957s] [ 79%] [32m[1mLinking CXX shared library libFILES__rosidl_typesupport_fastrtps_c.so[0m
+[7.059s] [ 79%] Built target FILES__rosidl_typesupport_fastrtps_c
+[7.109s] [ 79%] Built target FILES
+[7.155s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.139s] [ 81%] Built target FILES__py
+[8.181s] [ 83%] [32mBuilding C object CMakeFiles/FILES__rosidl_generator_py.dir/rosidl_generator_py/telemetry_interfaces/msg/_gps_s.c.o[0m
+[8.188s] [ 85%] [32mBuilding C object CMakeFiles/FILES__rosidl_generator_py.dir/rosidl_generator_py/telemetry_interfaces/msg/_telemetry_s.c.o[0m
+[8.188s] [ 87%] [32mBuilding C object CMakeFiles/FILES__rosidl_generator_py.dir/rosidl_generator_py/telemetry_interfaces/msg/_imu_s.c.o[0m
+[8.573s] [ 88%] [32m[1mLinking C shared library libFILES__rosidl_generator_py.so[0m
+[8.660s] [ 88%] Built target FILES__rosidl_generator_py
+[8.716s] [ 90%] [32mBuilding C object CMakeFiles/telemetry_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/telemetry_interfaces/_telemetry_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[8.718s] [ 92%] [32mBuilding C object CMakeFiles/telemetry_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/telemetry_interfaces/_telemetry_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.718s] [ 94%] [32mBuilding C object CMakeFiles/telemetry_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/telemetry_interfaces/_telemetry_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.984s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/telemetry_interfaces/telemetry_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[8.995s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/telemetry_interfaces/telemetry_interfaces_s__rosidl_typesupport_c.so[0m
+[9.031s] [100%] [32m[1mLinking C shared module rosidl_generator_py/telemetry_interfaces/telemetry_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[9.061s] [100%] Built target telemetry_interfaces_s__rosidl_typesupport_fastrtps_c
+[9.071s] [100%] Built target telemetry_interfaces_s__rosidl_typesupport_c
+[9.097s] [100%] Built target telemetry_interfaces_s__rosidl_typesupport_introspection_c
+[9.122s] Invoked command in '/home/toni/toni_umrt_ros/build/telemetry_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/toni/toni_umrt_ros/build/telemetry_interfaces -- -j4 -l4
+[9.385s] Invoking command in '/home/toni/toni_umrt_ros/build/telemetry_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/toni/toni_umrt_ros/build/telemetry_interfaces
+[9.403s] -- Install configuration: ""
+[9.403s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/ament_index/resource_index/rosidl_interfaces/telemetry_interfaces
+[9.404s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/msg/Telemetry.json
+[9.404s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/msg/Gps.json
+[9.404s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/msg/Imu.json
+[9.405s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces
+[9.405s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg
+[9.405s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/telemetry.h
+[9.405s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/gps.h
+[9.405s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail
+[9.406s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__struct.h
+[9.406s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__functions.c
+[9.406s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__functions.c
+[9.406s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__type_support.h
+[9.406s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__functions.h
+[9.407s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__struct.h
+[9.407s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__struct.h
+[9.407s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__description.c
+[9.407s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__type_support.h
+[9.408s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__type_support.c
+[9.408s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__type_support.h
+[9.408s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__description.c
+[9.408s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__type_support.c
+[9.408s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__functions.c
+[9.409s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__functions.h
+[9.409s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__description.c
+[9.409s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__functions.h
+[9.409s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__type_support.c
+[9.410s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/imu.h
+[9.410s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/rosidl_generator_c__visibility_control.h
+[9.410s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/environment/library_path.sh
+[9.410s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/environment/library_path.dsv
+[9.411s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/libFILES__rosidl_generator_c.so
+[9.412s] -- Set non-toolchain portion of runtime path of "/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/libFILES__rosidl_generator_c.so" to ""
+[9.412s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces
+[9.412s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg
+[9.412s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail
+[9.413s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__rosidl_typesupport_fastrtps_c.h
+[9.413s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__rosidl_typesupport_fastrtps_c.h
+[9.413s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__rosidl_typesupport_fastrtps_c.h
+[9.413s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.413s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/libFILES__rosidl_typesupport_fastrtps_c.so
+[9.414s] -- Set non-toolchain portion of runtime path of "/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/libFILES__rosidl_typesupport_fastrtps_c.so" to ""
+[9.414s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces
+[9.414s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg
+[9.414s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.414s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail
+[9.415s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__type_support.c
+[9.415s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__rosidl_typesupport_introspection_c.h
+[9.415s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__type_support.c
+[9.415s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__rosidl_typesupport_introspection_c.h
+[9.415s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__rosidl_typesupport_introspection_c.h
+[9.416s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__type_support.c
+[9.416s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/libFILES__rosidl_typesupport_introspection_c.so
+[9.417s] -- Set non-toolchain portion of runtime path of "/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/libFILES__rosidl_typesupport_introspection_c.so" to ""
+[9.418s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/libFILES__rosidl_typesupport_c.so
+[9.418s] -- Set non-toolchain portion of runtime path of "/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/libFILES__rosidl_typesupport_c.so" to ""
+[9.418s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces
+[9.418s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg
+[9.418s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/telemetry.hpp
+[9.418s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.419s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail
+[9.419s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__struct.hpp
+[9.419s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__type_support.hpp
+[9.419s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__builder.hpp
+[9.419s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__traits.hpp
+[9.420s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__type_support.hpp
+[9.420s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__traits.hpp
+[9.420s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__type_support.hpp
+[9.420s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__builder.hpp
+[9.421s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__struct.hpp
+[9.421s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__builder.hpp
+[9.426s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__struct.hpp
+[9.426s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__traits.hpp
+[9.426s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/gps.hpp
+[9.426s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/imu.hpp
+[9.427s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces
+[9.427s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg
+[9.427s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail
+[9.428s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__rosidl_typesupport_fastrtps_cpp.hpp
+[9.428s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/dds_fastrtps
+[9.428s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__rosidl_typesupport_fastrtps_cpp.hpp
+[9.428s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__rosidl_typesupport_fastrtps_cpp.hpp
+[9.429s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.429s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/libFILES__rosidl_typesupport_fastrtps_cpp.so
+[9.429s] -- Set non-toolchain portion of runtime path of "/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/libFILES__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.429s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces
+[9.430s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg
+[9.430s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail
+[9.430s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__type_support.cpp
+[9.431s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/imu__rosidl_typesupport_introspection_cpp.hpp
+[9.431s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__type_support.cpp
+[9.431s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__type_support.cpp
+[9.431s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/telemetry__rosidl_typesupport_introspection_cpp.hpp
+[9.431s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/include/telemetry_interfaces/telemetry_interfaces/msg/detail/gps__rosidl_typesupport_introspection_cpp.hpp
+[9.432s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/libFILES__rosidl_typesupport_introspection_cpp.so
+[9.432s] -- Set non-toolchain portion of runtime path of "/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/libFILES__rosidl_typesupport_introspection_cpp.so" to ""
+[9.432s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/libFILES__rosidl_typesupport_cpp.so
+[9.432s] -- Set non-toolchain portion of runtime path of "/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/libFILES__rosidl_typesupport_cpp.so" to ""
+[9.432s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/environment/pythonpath.sh
+[9.433s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/environment/pythonpath.dsv
+[9.433s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces-0.0.0-py3.12.egg-info
+[9.433s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[9.433s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[9.434s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[9.434s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[9.434s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces
+[9.435s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/_telemetry_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[9.435s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/telemetry_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[9.435s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/telemetry_interfaces_s__rosidl_typesupport_introspection_c.so
+[9.435s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/msg
+[9.436s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/msg/_gps.py
+[9.436s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/msg/_telemetry.py
+[9.436s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/msg/_imu.py
+[9.436s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/msg/_telemetry_s.c
+[9.437s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/msg/_gps_s.c
+[9.437s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/msg/__init__.py
+[9.437s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/msg/_imu_s.c
+[9.437s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/_telemetry_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.438s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/telemetry_interfaces_s__rosidl_typesupport_c.so
+[9.438s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/_telemetry_interfaces_s.ep.rosidl_typesupport_c.c
+[9.438s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/__init__.py
+[9.531s] Listing '/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces'...
+[9.531s] Compiling '/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/__init__.py'...
+[9.531s] Listing '/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/msg'...
+[9.532s] Compiling '/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/msg/__init__.py'...
+[9.532s] Compiling '/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/msg/_gps.py'...
+[9.532s] Compiling '/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/msg/_imu.py'...
+[9.532s] Compiling '/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/msg/_telemetry.py'...
+[9.545s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/telemetry_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[9.546s] -- Set non-toolchain portion of runtime path of "/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/telemetry_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[9.546s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/telemetry_interfaces_s__rosidl_typesupport_introspection_c.so
+[9.548s] -- Set non-toolchain portion of runtime path of "/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/telemetry_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[9.548s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/telemetry_interfaces_s__rosidl_typesupport_c.so
+[9.548s] -- Set non-toolchain portion of runtime path of "/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages/telemetry_interfaces/telemetry_interfaces_s__rosidl_typesupport_c.so" to ""
+[9.549s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/libFILES__rosidl_generator_py.so
+[9.550s] -- Set non-toolchain portion of runtime path of "/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/libFILES__rosidl_generator_py.so" to ""
+[9.550s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/msg/Telemetry.idl
+[9.550s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/msg/Gps.idl
+[9.551s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/msg/Imu.idl
+[9.551s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/msg/Telemetry.msg
+[9.551s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/msg/Gps.msg
+[9.551s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/msg/Imu.msg
+[9.551s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/ament_index/resource_index/package_run_dependencies/telemetry_interfaces
+[9.552s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/ament_index/resource_index/parent_prefix_path/telemetry_interfaces
+[9.552s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/environment/ament_prefix_path.sh
+[9.552s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/environment/ament_prefix_path.dsv
+[9.553s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/environment/path.sh
+[9.553s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/environment/path.dsv
+[9.553s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/local_setup.bash
+[9.554s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/local_setup.sh
+[9.554s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/local_setup.zsh
+[9.554s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/local_setup.dsv
+[9.555s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/package.dsv
+[9.555s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/ament_index/resource_index/packages/telemetry_interfaces
+[9.555s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/export_FILES__rosidl_generator_cExport.cmake
+[9.556s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/export_FILES__rosidl_generator_cExport-noconfig.cmake
+[9.556s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/export_FILES__rosidl_typesupport_fastrtps_cExport.cmake
+[9.556s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/export_FILES__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.557s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/FILES__rosidl_typesupport_introspection_cExport.cmake
+[9.557s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/FILES__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.557s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/FILES__rosidl_typesupport_cExport.cmake
+[9.558s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/FILES__rosidl_typesupport_cExport-noconfig.cmake
+[9.558s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/export_FILES__rosidl_generator_cppExport.cmake
+[9.558s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/export_FILES__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.559s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/export_FILES__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.559s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/FILES__rosidl_typesupport_introspection_cppExport.cmake
+[9.559s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/FILES__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.560s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/FILES__rosidl_typesupport_cppExport.cmake
+[9.560s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/FILES__rosidl_typesupport_cppExport-noconfig.cmake
+[9.560s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/export_FILES__rosidl_generator_pyExport.cmake
+[9.560s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/export_FILES__rosidl_generator_pyExport-noconfig.cmake
+[9.560s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/rosidl_cmake-extras.cmake
+[9.561s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.561s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[9.561s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[9.561s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.561s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.562s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.562s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/telemetry_interfacesConfig.cmake
+[9.562s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake/telemetry_interfacesConfig-version.cmake
+[9.562s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/package.xml
+[9.567s] Invoked command in '/home/toni/toni_umrt_ros/build/telemetry_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/toni/toni_umrt_ros/build/telemetry_interfaces

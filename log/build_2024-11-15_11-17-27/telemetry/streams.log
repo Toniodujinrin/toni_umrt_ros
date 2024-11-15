@@ -1,0 +1,79 @@
+[0.010s] Invoking command in '/home/toni/toni_umrt_ros/build/telemetry': CMAKE_PREFIX_PATH=/home/toni/toni_umrt_ros/install/telemetry_interfaces:/home/toni/toni_umrt_ros/install/telemetry:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/toni/toni_umrt_ros/build/telemetry -- -j4 -l4
+[0.043s] -- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.303s] -- Found rclcpp: 28.3.3 (/opt/ros/rolling/share/rclcpp/cmake)
+[0.334s] -- Found rosidl_generator_c: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.345s] -- Found rosidl_generator_cpp: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.364s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.380s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.463s] -- Found rmw_implementation_cmake: 7.4.3 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[0.466s] -- Found rmw_fastrtps_cpp: 9.0.1 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[0.535s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.631s] -- Found telemetry_interfaces: 0.0.0 (/home/toni/toni_umrt_ros/install/telemetry_interfaces/share/telemetry_interfaces/cmake)
+[0.730s] -- Configuring done (0.7s)
+[0.761s] -- Generating done (0.0s)
+[0.762s] -- Build files have been written to: /home/toni/toni_umrt_ros/build/telemetry
+[0.791s] [ 20%] [32mBuilding CXX object CMakeFiles/telemetry_tester.dir/src/telemetry_tester.cpp.o[0m
+[0.803s] [ 80%] Built target telemetry_master
+[2.856s] [01m[K/home/toni/toni_umrt_ros/src/telemetry/src/telemetry_tester.cpp:[m[K In constructor ‘[01m[KGPS_IMU_publisher::[01;32m[KGPS_IMU_publisher[m[K()[m[K’:
+[2.856s] [01m[K/home/toni/toni_umrt_ros/src/telemetry/src/telemetry_tester.cpp:18:34:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KGPS_IMU_publisher[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
+[2.856s]    18 |     : Node("gps_imu_publisher"), [01;31m[Kcount_[m[K(0)
+[2.856s]       |                                  [01;31m[K^~~~~~[m[K
+[2.864s] [01m[K/home/toni/toni_umrt_ros/src/telemetry/src/telemetry_tester.cpp:21:67:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Publisher<telemetry_interfaces::msg::Gps_<std::allocator<void> > >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<telemetry_interfaces::msg::Gps_<std::allocator<void> > > >[m[K’} and ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<telemetry_interfaces::msg::Imu_<std::allocator<void> >, std::allocator<void> > >[m[K’)
+[2.864s]    21 |       imu_publisher = this->create_publisher<imu_message>("imu",10[01;31m[K)[m[K;
+[2.864s]       |                                                                   [01;31m[K^[m[K
+[2.864s] In file included from [01m[K/usr/include/c++/13/memory:80[m[K,
+[2.864s]                  from [01m[K/home/toni/toni_umrt_ros/src/telemetry/src/telemetry_tester.cpp:3[m[K:
+[2.864s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:418:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(const std::shared_ptr<_Yp>&) [35m[K[with _Tp = rclcpp::Publisher<telemetry_interfaces::msg::Gps_<std::allocator<void> > >][m[K[m[K’
+[2.864s]   418 |         [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[2.864s]       |         [01;36m[K^~~~~~~~[m[K
+[2.864s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:418:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.864s] /usr/include/c++/13/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using std::shared_ptr<_Tp>::_Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [35m[K[with _Arg = const std::shared_ptr<rclcpp::Publisher<telemetry_interfaces::msg::Imu_<std::allocator<void> >, std::allocator<void> > >&; _Tp = rclcpp::Publisher<telemetry_interfaces::msg::Gps_<std::allocator<void> > >][m[K[m[K’:
+[2.865s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:418:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Publisher<telemetry_interfaces::msg::Gps_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Publisher<telemetry_interfaces::msg::Gps_<std::allocator<void> > > >::[01;32m[Koperator=[m[K(const std::shared_ptr<_Tp>&) [35m[K[with _Yp = rclcpp::Publisher<telemetry_interfaces::msg::Imu_<std::allocator<void> >, std::allocator<void> >][m[K[m[K’
+[2.865s] [01m[K/home/toni/toni_umrt_ros/src/telemetry/src/telemetry_tester.cpp:21:67:[m[K   required from here
+[2.865s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:183:15:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Publisher<telemetry_interfaces::msg::Gps_<std::allocator<void> > > >&>[m[K’
+[2.865s]   183 |         using [01;31m[K_Assignable[m[K = typename enable_if<
+[2.865s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[2.865s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:429:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(std::auto_ptr<_Up>&&) [35m[K[with _Tp = rclcpp::Publisher<telemetry_interfaces::msg::Gps_<std::allocator<void> > >][m[K[m[K’
+[2.865s]   429 |         [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[2.865s]       |         [01;36m[K^~~~~~~~[m[K
+[2.865s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:429:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.865s] [01m[K/home/toni/toni_umrt_ros/src/telemetry/src/telemetry_tester.cpp:21:67:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<telemetry_interfaces::msg::Imu_<std::allocator<void> >, std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+[2.865s]    21 |       imu_publisher = this->create_publisher<imu_message>("imu",10[01;36m[K)[m[K;
+[2.865s]       |                                                                   [01;36m[K^[m[K
+[2.865s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:446:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(std::shared_ptr<_Yp>&&) [35m[K[with _Tp = rclcpp::Publisher<telemetry_interfaces::msg::Gps_<std::allocator<void> > >][m[K[m[K’
+[2.865s]   446 |         [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[2.865s]       |         [01;36m[K^~~~~~~~[m[K
+[2.865s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:446:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.866s] /usr/include/c++/13/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using std::shared_ptr<_Tp>::_Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [35m[K[with _Arg = std::shared_ptr<rclcpp::Publisher<telemetry_interfaces::msg::Imu_<std::allocator<void> >, std::allocator<void> > >; _Tp = rclcpp::Publisher<telemetry_interfaces::msg::Gps_<std::allocator<void> > >][m[K[m[K’:
+[2.866s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:446:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Publisher<telemetry_interfaces::msg::Gps_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Publisher<telemetry_interfaces::msg::Gps_<std::allocator<void> > > >::[01;32m[Koperator=[m[K(std::shared_ptr<_Tp>&&) [35m[K[with _Yp = rclcpp::Publisher<telemetry_interfaces::msg::Imu_<std::allocator<void> >, std::allocator<void> >][m[K[m[K’
+[2.866s] [01m[K/home/toni/toni_umrt_ros/src/telemetry/src/telemetry_tester.cpp:21:67:[m[K   required from here
+[2.866s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:183:15:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Publisher<telemetry_interfaces::msg::Gps_<std::allocator<void> > > >&>[m[K’
+[2.866s]   183 |         using [01;31m[K_Assignable[m[K = typename enable_if<
+[2.866s]       |               [01;31m[K^~~~~~~~~~~[m[K
+[2.866s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:454:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(std::unique_ptr<_Up, _Ep>&&) [35m[K[with _Del = _Yp; _Tp = rclcpp::Publisher<telemetry_interfaces::msg::Gps_<std::allocator<void> > >][m[K[m[K’
+[2.866s]   454 |         [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[2.866s]       |         [01;36m[K^~~~~~~~[m[K
+[2.866s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:454:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.866s] [01m[K/home/toni/toni_umrt_ros/src/telemetry/src/telemetry_tester.cpp:21:67:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<telemetry_interfaces::msg::Imu_<std::allocator<void> >, std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+[2.866s]    21 |       imu_publisher = this->create_publisher<imu_message>("imu",10[01;36m[K)[m[K;
+[2.866s]       |                                                                   [01;36m[K^[m[K
+[2.866s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:414:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(const std::shared_ptr<_Tp>&) [35m[K[with _Tp = rclcpp::Publisher<telemetry_interfaces::msg::Gps_<std::allocator<void> > >][m[K[m[K’
+[2.866s]   414 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[2.866s]       |                   [01;36m[K^~~~~~~~[m[K
+[2.866s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:414:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<telemetry_interfaces::msg::Imu_<std::allocator<void> >, std::allocator<void> > >[m[K’ to ‘[01m[Kconst std::shared_ptr<rclcpp::Publisher<telemetry_interfaces::msg::Gps_<std::allocator<void> > > >&[m[K’
+[2.866s]   414 |       shared_ptr& operator=([01;36m[Kconst shared_ptr&[m[K) noexcept = default;
+[2.867s]       |                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[2.867s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:438:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::[01;32m[Koperator=[m[K(std::shared_ptr<_Tp>&&) [35m[K[with _Tp = rclcpp::Publisher<telemetry_interfaces::msg::Gps_<std::allocator<void> > >][m[K[m[K’
+[2.867s]   438 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[2.867s]       |       [01;36m[K^~~~~~~~[m[K
+[2.867s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:438:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<telemetry_interfaces::msg::Imu_<std::allocator<void> >, std::allocator<void> > >[m[K’ to ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<telemetry_interfaces::msg::Gps_<std::allocator<void> > > >&&[m[K’
+[2.867s]   438 |       operator=([01;36m[Kshared_ptr&& __r[m[K) noexcept
+[2.867s]       |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[2.869s] [01m[K/home/toni/toni_umrt_ros/src/telemetry/src/telemetry_tester.cpp:[m[K In member function ‘[01m[Kvoid GPS_IMU_publisher::[01;32m[Ktimer_callback[m[K()[m[K’:
+[2.869s] [01m[K/home/toni/toni_umrt_ros/src/telemetry/src/telemetry_tester.cpp:40:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Krclcpp::Publisher<telemetry_interfaces::msg::Gps_<std::allocator<void> > >::Publisher[m[K’
+[2.869s]    40 |       imu_publisher->[01;31m[KPublisher[m[K(imu);
+[2.869s]       |                      [01;31m[K^~~~~~~~~[m[K
+[3.850s] gmake[2]: *** [CMakeFiles/telemetry_tester.dir/build.make:76: CMakeFiles/telemetry_tester.dir/src/telemetry_tester.cpp.o] Error 1
+[3.851s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/telemetry_tester.dir/all] Error 2
+[3.851s] gmake: *** [Makefile:146: all] Error 2
+[3.853s] Invoked command in '/home/toni/toni_umrt_ros/build/telemetry' returned '2': CMAKE_PREFIX_PATH=/home/toni/toni_umrt_ros/install/telemetry_interfaces:/home/toni/toni_umrt_ros/install/telemetry:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/toni/toni_umrt_ros/build/telemetry -- -j4 -l4

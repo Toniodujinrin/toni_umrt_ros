@@ -1,0 +1,12 @@
+[0.027s] Invoking command in '/home/toni/toni_umrt_ros/build/telemetry': CMAKE_PREFIX_PATH=/home/toni/toni_umrt_ros/install/telemetry_interfaces:/home/toni/toni_umrt_ros/install/telemetry:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/toni/toni_umrt_ros/build/telemetry -- -j4 -l4
+[0.176s] [ 33%] [32mBuilding CXX object CMakeFiles/telemetry_master.dir/src/telemetry_master.cpp.o[0m
+[0.198s] In file included from [01m[K/home/toni/toni_umrt_ros/src/telemetry/src/telemetry_master.cpp:1[m[K:
+[0.198s] [01m[K/home/toni/toni_umrt_ros/src/telemetry/src/telemetry_master.h:1:25:[m[K [01;35m[Kwarning: [m[Kextra tokens at end of #ifndef directive
+[0.198s]     1 | #ifndef TELEMETRY_MASTER[01;35m[K;[m[K
+[0.198s]       |                         [01;35m[K^[m[K
+[0.198s] [01m[K/home/toni/toni_umrt_ros/src/telemetry/src/telemetry_master.h:2:9:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[0.198s]     2 | #define [01;35m[KTELEMETRY_MASTER[m[K;
+[0.198s]       |         [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[0.679s] [01m[K/home/toni/toni_umrt_ros/src/telemetry/src/telemetry_master.h:40:7:[m[K [01;35m[Kwarning: [m[Kextra tokens at end of #endif directive [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wendif-labels-Wendif-labels]8;;[m[K]
+[0.680s]    40 | #endif[01;35m[K;[m[K
+[0.680s]       |       [01;35m[K^[m[K

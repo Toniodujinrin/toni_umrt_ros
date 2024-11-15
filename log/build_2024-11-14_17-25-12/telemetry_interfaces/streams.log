@@ -1,0 +1,39 @@
+[0.028s] Invoking command in '/home/toni/toni_umrt_ros/build/telemetry_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/toni/toni_umrt_ros/src/telemetry_interfaces -DCMAKE_INSTALL_PREFIX=/home/toni/toni_umrt_ros/install/telemetry_interfaces
+[0.398s] -- The C compiler identification is GNU 13.2.0
+[0.545s] -- The CXX compiler identification is GNU 13.2.0
+[0.596s] -- Detecting C compiler ABI info
+[0.800s] -- Detecting C compiler ABI info - done
+[0.818s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.828s] -- Detecting C compile features
+[0.829s] -- Detecting C compile features - done
+[0.853s] -- Detecting CXX compiler ABI info
+[1.085s] -- Detecting CXX compiler ABI info - done
+[1.107s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.107s] -- Detecting CXX compile features
+[1.109s] -- Detecting CXX compile features - done
+[1.128s] -- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[1.469s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.738s] -- Found rosidl_default_generators: 1.7.1 (/opt/ros/rolling/share/rosidl_default_generators/cmake)
+[1.753s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.863s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.972s] -- Found rosidl_adapter: 4.8.1 (/opt/ros/rolling/share/rosidl_adapter/cmake)
+[3.538s] -- Found ament_cmake_ros: 0.13.0 (/opt/ros/rolling/share/ament_cmake_ros/cmake)
+[4.596s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.916s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.934s] -- Found python_cmake_module: 0.12.0 (/opt/ros/rolling/share/python_cmake_module/cmake)
+[6.255s] -- Found PythonExtra: /usr/bin/python3  
+[7.486s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[7.572s] -- Found ament_lint_auto: 0.18.1 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[7.720s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.721s] -- Configured cppcheck include dirs: 
+[7.721s] -- Configured cppcheck exclude dirs and/or files: 
+[7.732s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.732s] -- Configured 'flake8' exclude dirs and/or files: 
+[7.755s] -- Added test 'lint_cmake' to check CMake code style
+[7.766s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.839s] -- Added test 'uncrustify' to check C / C++ code style
+[7.839s] -- Configured uncrustify additional arguments: 
+[7.850s] -- Added test 'xmllint' to check XML markup files
+[7.867s] -- Configuring done (7.8s)
+[7.924s] -- Generating done (0.1s)
+[7.929s] -- Build files have been written to: /home/toni/toni_umrt_ros/build/telemetry_interfaces

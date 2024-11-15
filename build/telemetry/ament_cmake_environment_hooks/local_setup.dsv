@@ -1,0 +1,2 @@
+source;share/telemetry/environment/ament_prefix_path.sh
+source;share/telemetry/environment/path.sh

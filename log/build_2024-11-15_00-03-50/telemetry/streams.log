@@ -1,0 +1,26 @@
+[0.036s] Invoking command in '/home/toni/toni_umrt_ros/build/telemetry': AMENT_PREFIX_PATH=/home/toni/toni_umrt_ros/install/telemetry_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/toni/toni_umrt_ros/install/telemetry_interfaces:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/toni/toni_umrt_ros/build/telemetry -- -j4 -l4
+[0.254s] [ 33%] [32mBuilding CXX object CMakeFiles/telemetry_master.dir/src/telemetry_master.cpp.o[0m
+[0.256s] [ 66%] [32mBuilding CXX object CMakeFiles/telemetry_master.dir/src/main.cpp.o[0m
+[28.218s] [100%] [32m[1mLinking CXX executable telemetry_master[0m
+[29.656s] [100%] Built target telemetry_master
+[29.680s] Invoked command in '/home/toni/toni_umrt_ros/build/telemetry' returned '0': AMENT_PREFIX_PATH=/home/toni/toni_umrt_ros/install/telemetry_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/toni/toni_umrt_ros/install/telemetry_interfaces:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/toni/toni_umrt_ros/build/telemetry -- -j4 -l4
+[29.739s] Invoking command in '/home/toni/toni_umrt_ros/build/telemetry': AMENT_PREFIX_PATH=/home/toni/toni_umrt_ros/install/telemetry_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/toni/toni_umrt_ros/install/telemetry_interfaces:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/toni/toni_umrt_ros/build/telemetry
+[29.764s] -- Install configuration: ""
+[29.767s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry/lib/telemetry/telemetry_master
+[29.780s] -- Set non-toolchain portion of runtime path of "/home/toni/toni_umrt_ros/install/telemetry/lib/telemetry/telemetry_master" to ""
+[29.783s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry/share/ament_index/resource_index/package_run_dependencies/telemetry
+[29.784s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/ament_index/resource_index/parent_prefix_path/telemetry
+[29.785s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/environment/ament_prefix_path.sh
+[29.785s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/environment/ament_prefix_path.dsv
+[29.785s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/environment/path.sh
+[29.785s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/environment/path.dsv
+[29.786s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/local_setup.bash
+[29.786s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/local_setup.sh
+[29.786s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/local_setup.zsh
+[29.786s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/local_setup.dsv
+[29.786s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/package.dsv
+[29.787s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/ament_index/resource_index/packages/telemetry
+[29.787s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/cmake/telemetryConfig.cmake
+[29.787s] -- Up-to-date: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/cmake/telemetryConfig-version.cmake
+[29.788s] -- Installing: /home/toni/toni_umrt_ros/install/telemetry/share/telemetry/package.xml
+[29.792s] Invoked command in '/home/toni/toni_umrt_ros/build/telemetry' returned '0': AMENT_PREFIX_PATH=/home/toni/toni_umrt_ros/install/telemetry_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/toni/toni_umrt_ros/install/telemetry_interfaces:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/toni/toni_umrt_ros/install/telemetry_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/toni/toni_umrt_ros/build/telemetry
